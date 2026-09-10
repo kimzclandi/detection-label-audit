@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "reference": "d4a3be3938c6da1f8c79523b27c93bae0b4e2a307c639bab8f14d815f03b3e9c",
+    "code": {
+      "src/label_audit.py": "bf16bfbbfcd40eb43a41bec237a65377b52f8cd094fa40d43c92e100b4e690b4",
+      "scripts/run.py": "d8d512f0b09b1d5c4179c7d97a61b79b180824c8c15d50338ce57d7f161501fe"
+    },
+    "lock": "2c781288fbb57fe4f86f2b004cd258eebf3cc7fd86bf55a5546276dfa1f1b5e2"
+  },
+  "seeds": [
+    1301,
+    2309,
+    3301
+  ],
+  "methods": [
+    "random",
+    "geometry",
+    "combined"
+  ],
+  "primary_budget_images": 12,
+  "secondary_budget_images": 24,
+  "primary": "mean paired precision@12 combined-minus-geometry over three fixed contamination seeds, then image-group bootstrap 2000 resamples (seed911206); no threshold/weight tuning",
+  "pollution": "Five equally represented types, one inserted problem per polluted image; 50% images polluted, seed-controlled. Missing/class/half-size box/exact duplicate/normalized-coordinate pipeline.",
+  "reference": "Unmodified public BDD labels, NOT independently adjudicated clean. Ground truth is synthetic injection delta only.",
+  "splits": "36 previous dev images (not used for tuning);120 heldout source image groups for new synthetic corruption experiment. These images were evaluated for detection in another project, so not a new detector test set.",
+  "review_unit": "Image review, not per-box or human time. One injected issue per polluted image. Per-type recall counts reviewed polluted images, not issue-type classification accuracy.",
+  "scoring": "Geometry contract/exact duplicates=10 or20; plus MAX fixed detector disagreement>=.7. Auditor receives observed labels/predictions only; corruption truth never passed.",
+  "decision": "No real-label-error performance claim without independent human adjudication. No automatic repair, no model retraining. Preserve negative result and all clean false alarms.",
+  "statistical_unit": "image prefix group; contamination draws on shared source images are paired, not independent datasets",
+  "stop": "Run all three seeds once; freeze all results, do not seek favorable corruption or budget."
+}

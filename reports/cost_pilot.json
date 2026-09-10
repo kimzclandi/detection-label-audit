@@ -1,0 +1,14 @@
+{
+  "images": 6,
+  "split": "dev",
+  "seconds": 0.0014025409982423298,
+  "ids": [
+    "b43eb946-92f9152d",
+    "b484aa24-d70cf6e5",
+    "b5b44d2d-60f87448",
+    "b6decb24-82234e11",
+    "b7872bf3-ddf64f77",
+    "ba1f5489-3f8e2762"
+  ],
+  "purpose": "cost only, no parameter changes"
+}
