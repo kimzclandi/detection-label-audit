@@ -1,0 +1,6896 @@
+{
+  "version": "human-v1",
+  "seed": 911207,
+  "sampling": "uniform deterministic hash sample 40 of 120 unique eval groups, no model/label-based selection",
+  "source_reference_sha256": "d4a3be3938c6da1f8c79523b27c93bae0b4e2a307c639bab8f14d815f03b3e9c",
+  "cases": [
+    {
+      "case_id": "H-7bd354639894",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "8e57e5aaa39d27764f12b989c0d9fa6806e82394bc4f7fa1a8d547ec4686f6b8",
+      "labels": [
+        {
+          "box": [
+            421.944399,
+            255.83073299999998,
+            432.5223920000001,
+            276.986721
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            808.628822,
+            209.20920099999998,
+            818.031481,
+            232.71585299999998
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            795.700163,
+            209.20920099999998,
+            806.278158,
+            233.891185
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            367.40897599999994,
+            307.467012,
+            382.688297,
+            333.324329
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            380.337633,
+            305.116347,
+            392.09095999999994,
+            341.551659
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            896.073596,
+            306.29168,
+            911.3529170000002,
+            347.4283209999999
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1153.706514,
+            300.179953,
+            1174.862498,
+            346.017925
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1193.667821,
+            303.705951,
+            1228.927798,
+            353.069921
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            390.680565,
+            309.112472,
+            403.609223,
+            344.372449
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            404.784554,
+            305.586474,
+            417.713213,
+            344.372449
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            435.343201,
+            307.937139,
+            449.447193,
+            346.723113
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            484.472108,
+            311.463135,
+            495.0501,
+            336.145121
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            259.24914675767917,
+            397.915362,
+            542.501691
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            759.852519,
+            295.596146,
+            799.813827,
+            330.856123
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            776.307175,
+            312.050802,
+            798.638494,
+            334.382121
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            797.463162,
+            306.174141,
+            823.320478,
+            335.55745399999995
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            822.145147,
+            274.440159,
+            897.36643,
+            339.083452
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            803.339825,
+            313.226135,
+            826.846476,
+            339.083452
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            516.558673,
+            69.344623,
+            765.729182,
+            426.64573000000007
+          ],
+          "label": 8,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-51cbfecdb8c1",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "1b6ecdd5ffdcb4fe8cd78d5e40396604bfffcd2a00f1aa617251dfc63a574028",
+      "labels": [
+        {
+          "box": [
+            578.957877,
+            283.240168,
+            583.948892,
+            299.460971
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            571.471352,
+            284.487922,
+            580.20563,
+            296.96546199999995
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            526.552205,
+            343.132362,
+            539.029746,
+            358.10541
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            502.844878,
+            341.884609,
+            526.552205,
+            358.105411
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            480.385307,
+            334.398083,
+            492.86284700000004,
+            361.848672
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            470.403273,
+            331.902576,
+            482.880814,
+            363.09642699999995
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            454.1824730000001,
+            328.159313,
+            471.651029,
+            364.34418099999994
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            388.051508,
+            321.920542,
+            456.677981,
+            371.830705
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            339.3891,
+            319.425035,
+            386.80375200000003,
+            389.299261
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            277.001397,
+            316.929527,
+            346.87562500000007,
+            394.290278
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            153.473747,
+            311.938511,
+            291.97444599999994,
+            416.74985
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.232026,
+            325.663805,
+            185.91535200000004,
+            446.69594599999994
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            573.966859,
+            331.902576,
+            616.390496,
+            365.5919369999999
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            627.620282,
+            340.636854,
+            670.043922,
+            376.8217210000001
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            657.56638,
+            331.902576,
+            726.1928519999999,
+            385.55599899999993
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            672.5394289999999,
+            343.132362,
+            761.1299659999999,
+            405.520064
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            771.111998,
+            345.627869,
+            1064.334197,
+            511.579158
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            713.715312,
+            296.965462,
+            721.201838,
+            311.938511
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-13e8d4ce35fd",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "b9f8fe5f48d4f034c815d4130cf2d3c21a1b1b4243a7a982c169fecb43409557",
+      "labels": [
+        {
+          "box": [
+            240.81653,
+            233.330007,
+            329.45757997218357,
+            285.735676
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            150.978238,
+            259.36022253129346,
+            202.136153,
+            294.469953
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            204.631661,
+            253.29407099999997,
+            238.321021,
+            275.753644
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            114.79337099999998,
+            259.532842,
+            150.978238,
+            293.222199
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            64.88321,
+            270.762626,
+            118.53663400000002,
+            309.443003
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            302.954685,
+            272.01038,
+            351.61709200000007,
+            313.186263
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            380.52851182197503,
+            164.703534,
+            575.7997218358831,
+            362.5034770514603
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            492.68428372739913,
+            0.0,
+            1279.4695424617523,
+            421.5855354659249
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            0.0,
+            258.3588317107093,
+            61.555841,
+            320.139891
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-e045c301de23",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "6556f640658408d6a0984dae3c0e38c149a33adb5045c8655eda81e84c977f95",
+      "labels": [
+        {
+          "box": [
+            330.991565,
+            111.268422,
+            345.059986,
+            147.078948
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            621.31262,
+            145.800001,
+            635.38104,
+            173.936844
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            552.249461,
+            126.61579,
+            561.202092,
+            150.91579
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            348.896829,
+            112.547368,
+            364.24419800000004,
+            139.405263
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            563.759988,
+            122.77894800000001,
+            573.991568,
+            150.91579000000002
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            632.823146,
+            199.515792,
+            645.612617,
+            213.58421200000004
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            788.854724,
+            186.726316,
+            801.644198,
+            202.073685
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            481.90735599999994,
+            217.421055,
+            497.254724,
+            227.652634
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            458.886303,
+            222.536842,
+            478.07051300000006,
+            241.721053
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            435.86525,
+            227.652633,
+            461.44419800000003,
+            248.11579
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            507.486303,
+            218.700001,
+            527.949461,
+            227.652633
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            570.154724,
+            214.863159,
+            584.223147,
+            225.094738
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            779.902094,
+            212.305264,
+            865.5915679999999,
+            253.231581
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            791.41262,
+            220.3059805285118,
+            880.9389370000001,
+            260.905266
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1134.170517,
+            207.189475,
+            1234.7148817802504,
+            251.952633
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            607.244198,
+            229.31849791376914,
+            670.9318497913769,
+            295.436845
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            410.286303,
+            231.489475,
+            451.21262,
+            266.021055
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            428.59527121001395,
+            228.317107093185,
+            632.8789986091795,
+            391.3578969999999
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            630.265251,
+            231.489475,
+            785.0904033379693,
+            336.36316
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            227.31571627260084,
+            204.631579,
+            400.55632823365784,
+            340.47287899860925
+          ],
+          "label": 8,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            236.60526399999998,
+            182.633671,
+            484.67315716272594
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            538.18104,
+            213.58421200000004,
+            561.202094,
+            222.536844
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-ce6bbb0ba933",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "4bd3731a68c57ccb57676b446b2f68bb6ef1b3cbfca4c3d8c4e0b1ef1ab28450",
+      "labels": [
+        {
+          "box": [
+            327.600033,
+            346.628608,
+            414.000039,
+            390.728613
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            418.500043,
+            343.028609,
+            500.400051,
+            384.42861300000004
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            422.10004200000003,
+            347.528609,
+            498.60004900000007,
+            434.828618
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1057.114431,
+            379.028612,
+            1131.814439,
+            416.828616
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1073.314431,
+            374.528613,
+            1157.91444,
+            427.628619
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.4499989999999999,
+            307.80003,
+            357.750034,
+            484.200048
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            496.77703399999996,
+            69.159382,
+            890.977073,
+            475.95942399999996
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1132.013455,
+            107.859384,
+            1276.913469,
+            493.959422
+          ],
+          "label": 8,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            456.00005,
+            273.300028,
+            464.100051,
+            294.900029
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            959.914421,
+            276.428598,
+            971.614421,
+            302.528601
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1188.514444,
+            163.928588,
+            1224.514447,
+            285.428598
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            899.614413,
+            343.928606,
+            916.714416,
+            356.528607
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            465.750048,
+            272.250028,
+            474.750048,
+            292.950028
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            898.200889,
+            361.9338640000001,
+            918.3948040000001,
+            405.014217
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            910.317238,
+            359.241342,
+            934.5499359999999,
+            417.130566
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            369.120304,
+            328.277338,
+            383.929176,
+            341.739948
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-fd94fcd6b451",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "59754ed9cfb453fd3906a8f98e38d9333a6c34ab43b5eed502494697a008cca5",
+      "labels": [
+        {
+          "box": [
+            63.635456000000005,
+            498.00249289189185,
+            233.51351351351354,
+            582.4864864864865
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            288.47890148648645,
+            470.4528172972973,
+            389.18918918918916,
+            535.7837837837837
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            625.2972972972973,
+            460.42124200000006,
+            680.025953,
+            512.4324324324325
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            711.2198060000001,
+            461.76808259459466,
+            770.5945945945946,
+            511.1351351351351
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            840.9862250000001,
+            480.0,
+            1041.7297297297296,
+            621.3815129999999
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            393.09206629729727,
+            476.79067389189186,
+            446.27027027027026,
+            517.6216216216216
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            512.826912,
+            469.15552,
+            550.259533,
+            492.862848
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            434.5945945945946,
+            476.108108108108,
+            474.8108108108108,
+            512.4324324324324
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            455.35135135135135,
+            469.15552,
+            494.110602,
+            505.340387
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            546.516271,
+            472.898782,
+            561.489319,
+            491.615093
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            560.241565,
+            471.65102800000005,
+            576.462368,
+            490.367339
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            602.665203,
+            444.200439,
+            634.3783783783783,
+            486.48648648648646
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            686.264723,
+            441.70493,
+            733.6793770000002,
+            491.6756756756757
+          ],
+          "label": 6,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-28089b066c33",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "5aba21dc3af0111e01d502833b53cc3681a787f2a162c58f0b7a1397b4da753b",
+      "labels": [
+        {
+          "box": [
+            706.4226640000002,
+            435.51155,
+            753.545081,
+            461.06947199999996
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            333.55083,
+            428.437493,
+            379.075877,
+            471.56648399999995
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            79.568985,
+            436.424342,
+            214.546757,
+            493.92966499999994
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            597.002812,
+            435.625658,
+            650.514711,
+            464.378319
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            531.054244,
+            441.90103100000005,
+            560.605591,
+            458.67341700000003
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-0cb10b460b22",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "8fdacba0893e830361d2bf3daf9fb07890010c561f61f9c84a3a100dd1c62d92",
+      "labels": [
+        {
+          "box": [
+            642.8978159999999,
+            335.837587,
+            652.082072,
+            351.144679
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            751.578162,
+            329.102453,
+            760.7624169999999,
+            345.940253
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            705.656887,
+            362.77805299999994,
+            716.371851,
+            375.02372599999995
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            645.959234,
+            356.655216,
+            656.674197,
+            370.431599
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            549.524563,
+            373.493017,
+            560.239525,
+            385.73869
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            578.608033,
+            393.392234,
+            611.6492402833981,
+            417.5940036641254
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            547.993853,
+            393.392234,
+            569.42378,
+            430.129252
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            496.9315037184137,
+            390.7907941863254,
+            559.1149497069099,
+            438.50050705680945
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            373.493017,
+            399.36782121922136,
+            435.8201861090294,
+            466.866272
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            160.72445399999998,
+            370.4203549831972,
+            384.207981,
+            510.746604
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            672.2244937032262,
+            373.6367401205332,
+            698.615618,
+            406.25020299999994
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            694.02349,
+            394.54324351321725,
+            715.1096288677064,
+            418.495878
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            876.177871,
+            401.658077,
+            903.730635,
+            433.802968
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            862.40149,
+            397.065952,
+            883.8314170000001,
+            436.8643880000001
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            888.794426283851,
+            398.59666000000004,
+            971.0818339999998,
+            464.7676523450536
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            768.415961,
+            341.348126,
+            868.423987080723,
+            441.71689219414554
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            636.774981,
+            381.14656199999996,
+            661.266323,
+            393.3922339999999
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            598.783699734054,
+            388.6465374281013,
+            692.5949329063543,
+            464.7676523450536
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            367.37018,
+            211.448321,
+            577.077324
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            695.152394,
+            378.085144,
+            855.8768470000001,
+            511.256836
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            415.03262899999993,
+            391.8629225654374,
+            532.8478044186658,
+            486.765487
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1048.746192,
+            391.861525,
+            1064.05328,
+            427.067834
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            933.9430089999998,
+            401.04578000000004,
+            1068.2270205930085,
+            481.31277995784535
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1060.324870474298,
+            404.9195307164809,
+            1280.0,
+            545.3620877164808
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-ee04bd54592e",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "bf5a353b3c1107f999791f06ff2de5fbc5503e3fa64ee4fceb162bde53017a90",
+      "labels": [
+        {
+          "box": [
+            341.884609,
+            215.86145,
+            501.597127,
+            531.543223
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            952.036335,
+            333.150329,
+            1035.635855,
+            425.48412999999994
+          ],
+          "label": 2,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1006.937512,
+            345.627869,
+            1081.802755,
+            429.22739
+          ],
+          "label": 2,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1065.581953,
+            349.371132,
+            1195.348374,
+            436.713915
+          ],
+          "label": 2,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            243.31203899999997,
+            255.789579,
+            404.27231,
+            381.812737
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            477.889798,
+            169.694549,
+            916.543896,
+            586.3783783783783
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            551.507287,
+            203.383909,
+            633.859055,
+            257.037333
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            496.606109,
+            253.29407000000003,
+            554.002794,
+            331.902574
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            480.385307,
+            267.019366,
+            501.59712500000006,
+            331.902576
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-092de26fe978",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "84f7836f039e7018c0f85011b363a6f10ca45010e10d657cb3bfcf459bdd4b01",
+      "labels": [
+        {
+          "box": [
+            883.2267037552156,
+            352.530986,
+            969.552145,
+            377.66014699999994
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-489c024c27f3",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "edd57ac09942e5e4a220bf2b82a5aa41af02c3ea48e3f0860ab368947a950625",
+      "labels": [
+        {
+          "box": [
+            698.0033430000001,
+            323.744973,
+            713.3104350000001,
+            335.990645
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            483.704072,
+            299.253626,
+            586.2615800000001,
+            320.683553
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            465.46580178378395,
+            306.907174,
+            613.6216216216216,
+            438.48648648648646
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            874.3783783783783,
+            127.81420999999999,
+            1279.135135135135,
+            530.5945945945946
+          ],
+          "label": 6,
+          "occluded": false,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-ac52e3e0e948",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "1d9179e4ae2e4be8ea2a96817351f4f1c6d83d90b4dd897670d2e76d90143b9b",
+      "labels": [
+        {
+          "box": [
+            613.351711,
+            503.7189674308082,
+            639.9448517045488,
+            536.914172
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            705.92312,
+            498.563159,
+            723.114955,
+            522.367236
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            742.9516839999999,
+            497.24071,
+            757.4986189999998,
+            514.432543
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            753.531273,
+            498.563159,
+            782.625144,
+            523.689685
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            777.3353480000001,
+            498.9669017003289,
+            822.107371372923,
+            534.269274
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            814.628399,
+            481.5426606885714,
+            1043.0784278402114,
+            560.718248
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            383.510124,
+            487.98357,
+            495.918263,
+            566.008043
+          ],
+          "label": 6,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            470.444599,
+            498.563159,
+            565.4958219270394,
+            575.791964343078
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            626.4806654681908,
+            492.6308140596898,
+            717.522879,
+            571.864605
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-fe97c8f1ad6f",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "8be980fcf373e413eed7b80567c279405f4baad872fb3a9dcec6d405897d076c",
+      "labels": [
+        {
+          "box": [
+            250.00163100000003,
+            249.31521399999997,
+            279.65586200000007,
+            281.166056
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            275.262642,
+            254.80674,
+            332.374496,
+            278.969447
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            304.916875,
+            247.118607,
+            346.652458,
+            265.789787
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            353.242289,
+            249.31521399999997,
+            381.798216,
+            262.494873
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            389.486349,
+            253.708436,
+            430.12363,
+            283.362667
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            425.730411,
+            251.511825,
+            478.44904299999996,
+            292.149106
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            474.055825,
+            241.627074,
+            518.674476,
+            281.166056
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            504.808362,
+            243.82369,
+            524.577849,
+            258.101654
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            518.674479,
+            238.33215799999996,
+            535.149053,
+            247.11859799999996
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            516.477869,
+            243.82368399999996,
+            541.738881,
+            265.789781
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            540.640574,
+            236.13554799999997,
+            557.115148,
+            258.101647
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            551.623625,
+            237.23385199999998,
+            568.098198,
+            255.90503599999997
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            114.498283,
+            244.92198700000003,
+            263.867748,
+            322.901635
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            580.179551,
+            243.82368399999996,
+            606.538867,
+            262.494864
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            621.915136,
+            237.23385199999998,
+            635.094795,
+            247.11859599999997
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            610.932087,
+            236.13554799999997,
+            621.915138,
+            246.02029099999996
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            602.145647,
+            244.92198700000003,
+            640.586317,
+            281.166046
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            642.782929,
+            238.33215799999996,
+            683.42021,
+            254.80673199999998
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            649.3727590000001,
+            220.75927899999996,
+            699.894783,
+            255.90503599999997
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            599.94904,
+            231.74232800000001,
+            609.833783,
+            243.823681
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            836.084587,
+            240.528768,
+            895.3930509999999,
+            305.328756
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            583.474467,
+            231.74232800000001,
+            593.359209,
+            239.43046300000003
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            692.206648,
+            224.60334599999996,
+            877.8201719999998,
+            371.776203
+          ],
+          "label": 8,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            631.79988,
+            249.86435900000004,
+            698.796479,
+            302.582992
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            573.589721,
+            233.38978599999996,
+            584.572769,
+            245.47113899999997
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1.372881,
+            264.142322,
+            146.34912499999996,
+            399.2338219999999
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            855.854076,
+            235.586396,
+            948.4120740000001,
+            267.337632
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            405.549076,
+            201.538945,
+            411.04059899999993,
+            215.816909
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            411.04059899999993,
+            198.244029,
+            416.532123,
+            214.718604
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            420.925345,
+            201.538945,
+            428.613479,
+            216.915213
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            428.613478,
+            201.538945,
+            434.105002,
+            216.915213
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            452.77618500000005,
+            187.260981,
+            464.85754,
+            205.93216700000002
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            553.820234,
+            198.4439,
+            561.508365,
+            221.308433
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            671.338855,
+            200.440641,
+            679.0269899999998,
+            215.81690700000001
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            697.6981739999999,
+            205.932165,
+            706.484613,
+            220.210129
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            500.003295,
+            211.423689,
+            506.593126,
+            224.603344
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            342.945698,
+            234.488091,
+            353.928746,
+            246.569446
+          ],
+          "label": 10,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1005.77269,
+            243.27452999999997,
+            1071.670983,
+            283.91181
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1035.426922,
+            235.586396,
+            1168.321813,
+            288.30503
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1237.51502,
+            228.996567,
+            1271.562471,
+            263.044019
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            1262.776031,
+            222.406737,
+            1279.250605,
+            236.68469999999996
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-297177144bed",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "0e190c9306cf58553121c97ebebafff7dac2a08b91332643a8c8e03d08f8bbd4",
+      "labels": [
+        {
+          "box": [
+            456.42765261326934,
+            307.25663593888055,
+            470.0967099180938,
+            321.5200000830452
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            465.93656204271247,
+            305.47371542085995,
+            487.3316082589594,
+            330.4346026731481
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            473.409336,
+            303.85493,
+            529.5273938521133,
+            349.45242153203435
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            374.3627,
+            302.176172,
+            398.1855823579303,
+            322.7086137617256
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            298.8951185945946,
+            202.3783783783784,
+            404.7567567567568
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            432.11192900000003,
+            300.497416,
+            449.89027738052727,
+            316.7655453683236
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            418.681877,
+            301.9078743848188,
+            431.4667653609812,
+            313.19970433228247
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            403.573068,
+            300.497416,
+            421.36354909219784,
+            316.7655453683236
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            452.86181157722814,
+            301.9078743848188,
+            465.34225520337225,
+            314.38831801096285
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            391.05390028584793,
+            304.28510174217956,
+            409.47741230539395,
+            322.11430692238537
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-7423de1fe7b2",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "4e94ca42a979dd6049e308277acc145b71b64867bacfed48b21e6a12929f3a3f",
+      "labels": [
+        {
+          "box": [
+            563.300945,
+            296.957563,
+            584.730874,
+            315.326072
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            603.09938,
+            301.54969,
+            619.937179,
+            318.387489
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            575.546616,
+            294.40890125173854,
+            607.691506,
+            324.51033
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            526.563926,
+            292.365434,
+            564.831654,
+            326.041035
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            440.844217,
+            267.87409,
+            532.686761,
+            346.355504
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            390.330817,
+            289.304017,
+            443.6161335187761,
+            335.22529
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            621.467888,
+            300.018981,
+            638.305687,
+            318.38749
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            633.713561,
+            301.54969,
+            653.6127799999999,
+            322.979616
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            639.836398,
+            300.018981,
+            676.573416,
+            329.10245
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            811.275817,
+            298.488271,
+            875.565598,
+            330.633165
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            835.767161,
+            300.018981,
+            906.179778,
+            335.22529
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            704.738454,
+            284.711889,
+            808.826672,
+            370.431598
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.6898085382475676,
+            188.336547,
+            388.5396383866481,
+            467.64951321279557
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            678.104125,
+            298.488271,
+            690.349798,
+            327.571744
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            826.582907,
+            290.834726,
+            848.012834,
+            350.532382
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            965.877432,
+            289.304017,
+            996.4916140000001,
+            359.716635
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            958.2238889999999,
+            298.488271,
+            978.1231059999999,
+            359.716635
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            910.771906,
+            292.365434,
+            935.263251,
+            356.65521700000005
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1203.749661,
+            272.466217,
+            1242.01739,
+            396.4536499999999
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            937.100121,
+            321.448908,
+            973.8371380000001,
+            367.37018
+          ],
+          "label": 2,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            891.178848,
+            324.510326,
+            932.507994,
+            364.308762
+          ],
+          "label": 2,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            370.431599,
+            186.746507,
+            382.677272,
+            211.237855
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            382.677272,
+            185.215799,
+            391.861528,
+            211.237853
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            569.42378,
+            225.01423500000004,
+            578.608035,
+            241.85203500000003
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            561.770235,
+            225.01423500000004,
+            570.95449,
+            243.382745
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            543.401726,
+            267.87409,
+            554.116691,
+            280.119762
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            607.691507,
+            269.404799,
+            619.9371759999999,
+            284.711891
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            693.411215,
+            241.852036,
+            704.1261780000001,
+            257.159125
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            750.047452,
+            267.87409,
+            766.88525,
+            278.589054
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-891085294c10",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "2e00a51aa4b2202fd46ee13bf6faffaa6c587139e3ca47cba76c9228b210a58d",
+      "labels": [
+        {
+          "box": [
+            901.2517385257302,
+            271.3769123783032,
+            1236.7176634214186,
+            458.63699582753827
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            182.593186,
+            269.633847,
+            238.606733,
+            310.271129
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            232.016905,
+            258.3588317107093,
+            296.4116828929068,
+            305.877908
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            301.210112,
+            277.321981,
+            335.257562,
+            300.386385
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            341.847393,
+            277.321981,
+            359.42027100000007,
+            297.091469
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            653.765978,
+            276.223676,
+            697.9694019471488,
+            321.44645340751043
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            573.589722,
+            282.813506,
+            595.555818,
+            301.484689
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            545.033795,
+            279.518591,
+            565.901586,
+            297.413073713491
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            366.0101,
+            278.420286,
+            391.271113,
+            293.796554
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            392.369417,
+            279.518591,
+            412.138905,
+            293.796554
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            598.850734,
+            283.911811,
+            606.538868,
+            298.189773
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            599.8331015299026,
+            285.010115,
+            616.423613,
+            302.4200278164117
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            608.735478,
+            283.911811,
+            626.308356,
+            303.681297
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            617.521917,
+            283.911811,
+            639.488014,
+            308.074518
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            631.79988,
+            279.518591,
+            654.864282,
+            313.566042
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-335833477f61",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "44dc783b55089af54776c75a256de7562632d46d4f787c4fd1606b3a6f795ea8",
+      "labels": [
+        {
+          "box": [
+            807.7962809999999,
+            256.040942,
+            825.428941,
+            268.163397
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            779.143208,
+            257.142984,
+            792.367704,
+            263.755232
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            762.612587,
+            256.040942,
+            779.143208,
+            269.265439
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            746.081968,
+            260.449108,
+            773.633,
+            279.183811
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            710.816646,
+            258.245025,
+            747.4266414380826,
+            288.96412503685434
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            678.857448,
+            256.040942,
+            716.3268519999999,
+            289.10218199999997
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            812.204446,
+            263.4372588675209,
+            843.9181955581628,
+            289.102182
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            557.632903,
+            268.163397,
+            584.081895,
+            288.00014200000004
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            438.97980000000007,
+            262.4161842207476,
+            496.75281565522846,
+            297.918512
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            175.22456699999998,
+            268.5426321013876,
+            295.34707,
+            323.338922
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            358.9077383408279,
+            261.39510957397425,
+            447.2306952867216,
+            316.53314049973443
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            522.587986,
+            266.032774,
+            567.77168,
+            295.78789
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            765.037075,
+            260.522568,
+            820.13914,
+            311.216469
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            571.329722,
+            260.081766,
+            730.023671,
+            393.42876599999994
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            817.714653,
+            210.122549,
+            1093.2249810000003,
+            406.285902
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            249.061336,
+            95.326572,
+            369.183839
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-9f8845c71ff1",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "116bd2ecc594a696a9b7823da3fbcea7c2360cc406a37e8284526fd8ef07d7ad",
+      "labels": [
+        {
+          "box": [
+            246.58104000000003,
+            237.884212,
+            255.53367000000003,
+            272.415791
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            663.517883,
+            260.905266,
+            676.3073559999999,
+            289.042108
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            50.90209,
+            329.968424,
+            77.759985,
+            352.9894770000001
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            478.070514,
+            324.852632,
+            488.302093,
+            340.20000100000004
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            255.53367000000003,
+            237.884212,
+            267.04419700000005,
+            273.694738
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1210.90736,
+            326.131581,
+            1233.928413,
+            350.431581
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            320.759985,
+            324.852632,
+            332.270513,
+            338.921054
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            383.20458700000006,
+            367.6060100000001,
+            399.830902,
+            381.674431
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            362.7414299999999,
+            366.32706299999995,
+            381.92564,
+            382.95337799999993
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            343.557219,
+            365.048116,
+            362.74143000000004,
+            375.27969399999995
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            328.209851,
+            370.163905,
+            362.3747420900049,
+            402.99257032426914
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            307.746693,
+            371.4428520000001,
+            354.41046204407075,
+            420.51398642532433
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            266.820378,
+            371.4428520000001,
+            289.841429,
+            400.94972400000006
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            288.562482,
+            402.137589,
+            316.699327,
+            457.649682
+          ],
+          "label": 2,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            287.283535,
+            363.769169,
+            315.420378,
+            439.22706300000004
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            232.288797,
+            370.163905,
+            245.07827000000003,
+            402.137589
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            974.1449,
+            396.47368600000004,
+            1012.513322,
+            419.494739
+          ],
+          "label": 2,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            405.013318,
+            349.63189401651016,
+            442.01754254934656,
+            387.8604382369941
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            478.6532307606438,
+            366.35688211297196,
+            496.1746468616989,
+            393.915792
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            502.213318,
+            365.778949,
+            513.723846,
+            386.242107
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1062.392269,
+            382.405265,
+            1083.938514251641,
+            449.98182259528073
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1022.744901,
+            367.0578960000001,
+            1032.97648,
+            413.1000010000001
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            956.239637,
+            368.336843,
+            974.144902,
+            416.936844
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1201.797532,
+            373.452634,
+            1232.492269,
+            458.3246879999999
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            514.919172,
+            351.710528,
+            567.439634,
+            390.824731
+          ],
+          "label": 6,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            170.96594799999997,
+            374.73158099999995,
+            191.42910599999996,
+            429.726318
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            141.550158,
+            377.289475,
+            155.618581,
+            436.121054
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            114.692264,
+            370.89473899999996,
+            138.992265,
+            415.657897
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            83.997528,
+            365.778949,
+            108.297528,
+            396.47368599999993
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            402.1415159908132,
+            360.1573290413408,
+            488.2103668157648,
+            433.256834498819
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            539.1341830137802,
+            366.4067680183737,
+            645.106683720668,
+            442.0175425493466
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            633.4856929678461,
+            323.7189850229671,
+            757.4030323683398,
+            414.142562388577
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            754.1659500000001,
+            346.4461819981365,
+            940.892267,
+            460.421055
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            356.00331805325754,
+            126.63205273035334,
+            509.02105499999993
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            0.0,
+            112.547369,
+            17.492264,
+            168.821054
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            1222.26069,
+            390.07895,
+            1278.534375,
+            445.073688
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            1140.408057,
+            381.126318,
+            1278.534375,
+            432.284212
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            1034.255428,
+            372.173686,
+            1176.218585,
+            424.610529
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            321.75691385574055,
+            350.4283220211036,
+            345.6497539935431,
+            374.32116215890613
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            437.2389745217861,
+            352.02117803029046,
+            481.83894277901743,
+            362.3747420900049
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            539.978187114337,
+            371.13545014053244,
+            547.1460391556776,
+            395.82471828292836
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            1258.3562472575993,
+            422.1068424345112,
+            1279.8598033816215,
+            453.1675346136544
+          ],
+          "label": 2,
+          "occluded": false,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-0478992b2578",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "18e00fab63893c1b5fcc6573b1f870c6bd9efc5a7642919ca9aaca2bef1bd6ee",
+      "labels": [
+        {
+          "box": [
+            654.392218,
+            429.070356,
+            674.767069,
+            447.048163
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            673.568547,
+            430.268876,
+            697.5389560000001,
+            466.224492
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            690.347835,
+            438.65851999999995,
+            719.112328,
+            477.0111759999999
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            714.318246,
+            430.268876,
+            788.626517,
+            496.187506
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            614.84104,
+            413.489587,
+            624.429206,
+            426.673313
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            600.458794,
+            414.688109,
+            618.436602,
+            432.665916
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            590.870629,
+            419.48219099999994,
+            607.649918,
+            438.65851999999995
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            570.49578,
+            421.87923200000006,
+            598.061753,
+            453.04076800000007
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            534.540164,
+            424.276273,
+            576.8011126564674,
+            457.6356050069541
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            477.011177,
+            411.092547,
+            539.334246,
+            465.025972
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            620.833643,
+            431.467397,
+            659.1863,
+            468.621535
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            407.5660639777469,
+            409.894027,
+            500.981588,
+            472.21709500000003
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            743.082739,
+            443.452602,
+            848.1780250347704,
+            521.7246175243394
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            230.115945,
+            378.52573018080665,
+            360.500695410292,
+            425.59109874826146
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-c19cc3d1f708",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "6e85a4885aa792272458d5b5cbd0dc235bcac3da5576e9cc0b2eea7fd8d3eb14",
+      "labels": [
+        {
+          "box": [
+            0.997946,
+            235.515309,
+            112.76792499999999,
+            347.285288
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            107.77819199999999,
+            231.523525,
+            155.67961099999997,
+            322.33663
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            364.25037299999997,
+            261.461911,
+            390.196975,
+            280.422891
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            712.533606,
+            253.478342,
+            749.4576159999999,
+            279.424942
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            764.42681,
+            253.478342,
+            793.3672490000001,
+            276.431105
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            968.00784,
+            253.478342,
+            1058.820945,
+            296.390028
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            816.320013,
+            250.484503,
+            866.2173259999998,
+            282.418782
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            530.907393,
+            252.480395,
+            538.890961,
+            276.431106
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            469.034727,
+            248.48861,
+            496.97722099999993,
+            279.424943
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            497.97516700000006,
+            251.482449,
+            532.903285,
+            282.418782
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            124.743278,
+            221.544062,
+            379.219566,
+            378.22162000000003
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            474.024458,
+            228.52968599999997,
+            479.014189,
+            239.50709399999997
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            432.110716,
+            258.468073,
+            447.07991100000004,
+            268.447535
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            643.675316,
+            252.480395,
+            670.619864,
+            267.44959
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-4e53e9effc58",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "a5602e06349c1650d811e66ecbcf8532a244d54b2592fc95ca1aabbb10f780bb",
+      "labels": [
+        {
+          "box": [
+            579.747744,
+            135.36084,
+            590.236961,
+            172.073098
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            827.992547,
+            212.281765,
+            840.229966,
+            247.24582099999998
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            848.970981,
+            264.727851,
+            868.201212,
+            282.209881
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            593.733365,
+            137.109042,
+            611.215395,
+            173.821302
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            567.510322,
+            140.605448,
+            579.747742,
+            170.324896
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            567.510322,
+            247.245823,
+            577.99954,
+            261.231446
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            429.402298,
+            233.260199,
+            441.639718,
+            247.245823
+          ],
+          "label": 10,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            86.75454,
+            226.26738799999998,
+            111.229379,
+            245.49761899999996
+          ],
+          "label": 10,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            840.229966,
+            264.727851,
+            854.21559,
+            283.958083
+          ],
+          "label": 10,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            626.949219,
+            280.461677,
+            640.934843,
+            292.699096
+          ],
+          "label": 10,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            595.481568,
+            285.706283,
+            621.704611,
+            297.943703
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            586.740555,
+            290.950894,
+            618.208206,
+            329.411356
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            616.460002,
+            290.950894,
+            649.675858,
+            324.166748
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            642.683045,
+            297.943705,
+            663.66148,
+            332.907761
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            658.416871,
+            287.454487,
+            717.9972183588316,
+            345.145182
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            670.65429,
+            311.929326,
+            714.359362,
+            348.6415870000001
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            691.632725,
+            315.425733,
+            775.076495132128,
+            369.5132127955493
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            432.89870300000007,
+            250.742227,
+            590.236959,
+            404.584079
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            338.49575000000004,
+            228.01559099999997,
+            457.37354400000004,
+            322.418545
+          ],
+          "label": 6,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            326.25833,
+            276.96527,
+            343.740358,
+            311.929326
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            980.086194,
+            303.188313,
+            1036.028685,
+            385.353847
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            966.100573,
+            339.900573,
+            1044.7697,
+            388.850253
+          ],
+          "label": 2,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            929.388313,
+            280.461677,
+            981.834399,
+            450.03735200000006
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1156.654681,
+            376.612832,
+            1279.028881,
+            509.476249
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-582fb18be071",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "1d7caddaa3a58256d811f9527f6f8b5ab540596e8692f4bc9434ea0553e03e31",
+      "labels": [
+        {
+          "box": [
+            114.498284,
+            339.925359,
+            311.094857,
+            405.82365300000004
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            332.237224,
+            146.349125,
+            462.935506
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            1129.88114,
+            317.221745,
+            1278.482958,
+            380.10810810810807
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            1173.813336,
+            443.481416,
+            1279.135135135135,
+            529.932104
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            647.176148,
+            309.172824,
+            852.5591580000001,
+            392.643993
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            392.369416,
+            321.254176,
+            596.654123,
+            402.52873700000004
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            915.2606019999998,
+            312.232395,
+            1112.955482,
+            388.0154329999999
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-d45a6785ee56",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "0bee915a3f9b1c194f6ee14abc5237ef4dfb5d3995f1f8301c0d067c826922d3",
+      "labels": []
+    },
+    {
+      "case_id": "H-11853bf12c3b",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "fd055d885c32ee185d5f1c89d31f00c26632c4e1091a0882b41002544c541afa",
+      "labels": [
+        {
+          "box": [
+            541.7524339360223,
+            450.6258692628651,
+            610.935366,
+            508.488129
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            508.48812899999996,
+            458.513865,
+            550.7649513212796,
+            500.991989
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            490.997136,
+            476.004857,
+            509.737485,
+            502.2413480000001
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            386.0511839999999,
+            487.249067,
+            413.53702699999997,
+            500.991989
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            362.313409,
+            481.002283,
+            376.056331,
+            497.243918
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            334.827565,
+            478.503571,
+            358.4979137691238,
+            499.742634
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            283.57978,
+            467.259361,
+            332.328852,
+            502.2413480000001
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            89.953674,
+            407.290245,
+            283.60394499999995,
+            512.236196
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            422.28252499999996,
+            102.447239,
+            517.7190542420028
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            622.865090403338,
+            401.557719054242,
+            810.8324210000001,
+            519.732338
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-6c4b1b1414fd",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "8931fde768d5010dbaf31609b93abaaea132b9267ec82a37327b94081a7c0708",
+      "labels": []
+    },
+    {
+      "case_id": "H-4e5ca7adbf6f",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "47f7c7801ea0a5cdf8d214c63e48fb2c0fd2204458a3f658c29a45f0aeb84ea9",
+      "labels": [
+        {
+          "box": [
+            0.0,
+            275.574926,
+            94.354458,
+            296.54258300000004
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            197.69505500000002,
+            262.095717,
+            239.63037100000003,
+            287.556444
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            504.721467,
+            260.598028,
+            530.182194,
+            287.556444
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            458.293083,
+            248.61650900000004,
+            485.2515,
+            268.086477
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            527.186814,
+            242.62575,
+            557.140611,
+            281.565687
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            573.615199,
+            241.128061,
+            605.066685,
+            278.570304
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            226.3143254520167,
+            131.796704,
+            452.30232400000006,
+            348.961726
+          ],
+          "label": 8,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            468.77691200000004,
+            259.100338,
+            513.707605,
+            296.542581
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            533.177574,
+            262.095717,
+            600.573616,
+            314.4367176634214
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            625.959465,
+            254.571543,
+            632.571713,
+            263.387873
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-dd7dad4c7613",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "c5792743facbea8bca3a9976ab006d612c93788ca736b696fb76bc36ca7f4028",
+      "labels": [
+        {
+          "box": [
+            529.221478,
+            247.802434,
+            543.308437,
+            264.45066
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            495.925026,
+            251.64433099999997,
+            520.257049,
+            265.731292
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            476.71553599999993,
+            245.241168,
+            499.766925,
+            261.889393
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            435.7352880000001,
+            245.241168,
+            465.18984100000006,
+            263.170025
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            410.122633,
+            243.96053500000002,
+            435.7352880000001,
+            259.328129
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            360.177957,
+            246.52180100000004,
+            394.755041,
+            264.4506600000001
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            253.88544,
+            243.96053500000002,
+            292.304423,
+            269.573191
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            242.359745,
+            245.241168,
+            264.130501,
+            260.608762
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            114.73166715449065,
+            243.53419914868297,
+            193.6957,
+            284.940784
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            177.04747599999996,
+            244.07538625790224,
+            253.88543999999996,
+            290.06331499999993
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            661.766966,
+            252.924965,
+            707.869743,
+            291.343947
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            691.221519,
+            255.486231,
+            793.672139,
+            323.359766
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            527.300529,
+            228.592943,
+            675.853925,
+            359.2174810000001
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            769.340117,
+            234.996107,
+            992.1702110000001,
+            379.70760799999994
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1010.09907,
+            222.18977999999998,
+            1280.0,
+            523.1384719999999
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-9c6f616221c1",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "8a24aa5b11220623ca63e43813b71852299dc74e1ac811e72642c9d69bc01c8f",
+      "labels": [
+        {
+          "box": [
+            757.235766,
+            103.470981,
+            783.3618126973138,
+            142.664535
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            114.461492,
+            191.264541,
+            152.087303,
+            216.348415
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            86.242132,
+            192.83228300000002,
+            105.055037,
+            200.67099500000003
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            29.803415,
+            174.019378,
+            79.971163,
+            197.53551
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.016314,
+            188.12905599999996,
+            26.667930999999996,
+            222.619384
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            153.655043,
+            181.85808800000004,
+            208.52601800000002,
+            238.29680500000003
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            188.14537,
+            178.722604,
+            299.455062,
+            263.38068
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            277.506672,
+            178.722604,
+            467.203471,
+            326.0903650000001
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            4.71954,
+            191.264541,
+            180.306659,
+            316.683913
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            634.95188,
+            232.025836,
+            1241.668087,
+            423.2903769999999
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-969819407589",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "c52f58ff89722e0ae9600ca72dd31e6f4499241a1b964b6ad12884e00b071599",
+      "labels": [
+        {
+          "box": [
+            526.063547,
+            345.217502,
+            538.045065,
+            358.69670999999994
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            530.556616,
+            343.719812,
+            544.0358249999999,
+            360.1944
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            541.040445,
+            340.724433,
+            557.515033,
+            361.69209
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            550.026584,
+            342.222123,
+            567.998862,
+            370.678227
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            557.515033,
+            349.710571,
+            573.989619,
+            372.175919
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            570.994241,
+            349.710571,
+            597.952658,
+            369.180539
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            573.989621,
+            354.20364,
+            604.8400556328234,
+            377.5243393602225
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            603.943417,
+            349.710571,
+            630.901831,
+            387.15281699999997
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            618.920315,
+            340.724433,
+            683.3209769999999,
+            394.641266
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            627.906454,
+            354.20364,
+            704.288632,
+            403.56050069541027
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            747.721639,
+            355.701331,
+            785.163885,
+            381.162058
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            779.173125,
+            331.738294,
+            994.8404590000001,
+            475.516516
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            901.125631,
+            299.537963,
+            1277.0457740000002,
+            567.624439
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            447.32561799999996,
+            333.984828,
+            484.7678629999999,
+            366.934004
+          ],
+          "label": 6,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            428.713709,
+            348.212882,
+            455.67212600000005,
+            369.180539
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            416.73219099999994,
+            352.705951,
+            431.709089,
+            367.68284600000004
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            406.248362,
+            352.705951,
+            422.72294999999997,
+            369.180537
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            395.764533,
+            349.710571,
+            412.239121,
+            370.678229
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            373.29918599999996,
+            349.710571,
+            401.75528999999995,
+            372.175919
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            331.363871,
+            333.235983,
+            368.806117,
+            376.66899000000006
+          ],
+          "label": 8,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            475.142093,
+            342.222123,
+            533.551999,
+            391.645884
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            245.995551,
+            343.719812,
+            287.9308659999999,
+            385.655127
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            195.074098,
+            340.724433,
+            251.986311,
+            389.5410292072323
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            163.622612,
+            348.212882,
+            216.04175599999996,
+            396.138956
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            60.282015,
+            348.212882,
+            171.111061,
+            403.62740499999995
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            350.459416,
+            277.072615,
+            360.943245,
+            296.542583
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            524.191435,
+            293.547202,
+            533.177577,
+            307.026411
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            458.293083,
+            322.00331,
+            465.781532,
+            333.984828
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            621.915695,
+            330.240603,
+            632.399524,
+            342.222121
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            356.548468,
+            276.263978,
+            368.428467,
+            298.943976
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-01d612cc811d",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "56f154038c1c9626d7834c721ff60628d771b6ab10b57e50e7e7de692be553e9",
+      "labels": [
+        {
+          "box": [
+            380.76537799999994,
+            142.468568,
+            386.64441,
+            161.085505
+          ],
+          "label": 10,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            569.482344,
+            186.56131600000003,
+            575.361376,
+            199.299222
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            525.737958,
+            182.811387,
+            532.596828,
+            194.56945200000004
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            545.966211,
+            197.92744499999998,
+            564.58315,
+            203.80647799999997
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            879.895275,
+            201.8468,
+            884.794468,
+            209.68550999999997
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            911.2501180000002,
+            199.887123,
+            916.1493110000001,
+            208.705671
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            680.988021,
+            183.369835,
+            687.846892,
+            198.06741799999998
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            403.30167099999994,
+            216.34841600000001,
+            417.99925199999996,
+            223.207287
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            426.817803,
+            220.267771,
+            439.555709,
+            225.166966
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            419.958931,
+            224.18712699999998,
+            437.59603,
+            232.02583699999997
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            405.261349,
+            223.207288,
+            421.918609,
+            231.046
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            386.644411,
+            221.24761000000004,
+            404.28151,
+            230.066162
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            399.382316,
+            231.045999,
+            433.67667500000005,
+            251.62261299999997
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            359.208923,
+            226.146804,
+            400.36215300000003,
+            240.844387
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            333.733114,
+            237.904871,
+            412.120221,
+            308.7567567567567
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            233.985517,
+            212.429064,
+            365.2839210000001,
+            337.848434
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            511.475872,
+            225.166965,
+            611.419435,
+            243.783902
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            437.008121,
+            224.18712600000003,
+            508.53635699999995,
+            236.92503000000002
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            706.463801,
+            240.713739,
+            787.790425,
+            254.431483
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            726.060577,
+            245.612932,
+            824.044459,
+            256.39116
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            738.798483,
+            251.491964,
+            833.842851,
+            263.25003
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            752.516227,
+            245.612932,
+            884.79447,
+            297.544392
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            83.830643,
+            116.182346,
+            322.91131899999993,
+            225.924294
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            301.790332,
+            233.763007,
+            830.2702702702702,
+            522.8108108108108
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            98.545247,
+            289.052427,
+            460.54054054054046
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            434.041718,
+            204.481045,
+            440.472721,
+            216.424339
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-5a91418d3df5",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "b566059bfe687037771ad4a0715cf4f5c246737c97aa5a207de326fef8bc132c",
+      "labels": [
+        {
+          "box": [
+            572.70376,
+            242.738319,
+            641.8588064647397,
+            301.15202670236584
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            526.865788,
+            241.562984,
+            556.249102,
+            262.71897099999995
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            479.852484,
+            260.368307,
+            516.287794,
+            288.57629
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            660.853705,
+            255.666977,
+            691.412353,
+            279.173629
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            639.69772,
+            232.16032500000003,
+            672.6070300000001,
+            267.420302
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            692.587684,
+            253.316311,
+            751.354313,
+            308.556943
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-9dec3d129b77",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "afd0f7034a50dff4eb190d9c0762e97768d06869456573c6a2ff14228f27fd58",
+      "labels": [
+        {
+          "box": [
+            485.103663,
+            305.046713,
+            510.71631800000006,
+            319.133673
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            450.526581,
+            303.766081,
+            472.297337,
+            321.694939
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            436.439619,
+            305.046713,
+            451.807212,
+            317.853041
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            426.194559,
+            305.046713,
+            441.56214900000003,
+            320.414304
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            403.14317000000005,
+            302.485447,
+            428.7558230000001,
+            320.414306
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            143.174724,
+            281.995323,
+            302.5481848405169,
+            372.245148887547
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-3833220492f3",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "7c10b18dc87e4e4af2282c7fb03142612bb495b6001ca171faaa86c6a8d40f53",
+      "labels": [
+        {
+          "box": [
+            313.7871974411743,
+            273.0552054656373,
+            437.961669,
+            315.681773
+          ],
+          "label": 6,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            219.604712,
+            313.186265,
+            364.344178
+          ],
+          "label": 6,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            258.285087,
+            301.956478,
+            313.186264,
+            359.353164
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            108.59764,
+            285.12394382875937,
+            257.96928251173466,
+            368.09652007522374
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            279.496906,
+            301.956478,
+            391.79476800000003,
+            369.335198
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            630.115792,
+            316.929527,
+            649.5208351150559,
+            335.103106014774
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            670.043921,
+            308.195249,
+            702.485525,
+            346.875624
+          ],
+          "label": 8,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            954.531843,
+            310.690757,
+            982.2598980538879,
+            398.03354
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            897.135157,
+            323.168297,
+            929.576761,
+            401.776802
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            599.079978,
+            0.0,
+            628.534531,
+            29.946097
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            57.396686,
+            1.247754,
+            93.581553,
+            64.88321
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            63.635456000000005,
+            54.90117699999999,
+            108.55460199999999,
+            123.527649
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            455.64911100000006,
+            310.169245,
+            486.38429700000006,
+            320.414306
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            464.613541,
+            299.924183,
+            514.7703797863636,
+            321.5098583281077
+          ],
+          "label": 6,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-978cd617ba96",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "f47fbee634d5052af5c61ac3ff2afddd51d49b7796d5894fc7315747ab46acc5",
+      "labels": [
+        {
+          "box": [
+            560.675357,
+            229.65655099999998,
+            572.917178,
+            244.346735
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            543.536809,
+            229.65655099999998,
+            563.123721,
+            248.01928099999998
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            482.327709,
+            230.88073300000002,
+            501.914621,
+            254.140191
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            310.942228,
+            240.67417999999998,
+            345.219325,
+            274.951276
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            607.194273,
+            214.966358,
+            623.108639,
+            246.79509
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            499.466257,
+            198.317484,
+            544.760991,
+            254.629856
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            461.516615,
+            231.982489,
+            494.56953,
+            257.690311
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            400.307515,
+            235.655035,
+            438.25715699999995,
+            262.58704
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            219.128578,
+            227.08576100000002,
+            320.735684,
+            296.864135
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            565.6216216216216,
+            122.41820000000001,
+            1278.454073,
+            445.6022489999999
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-5284737db429",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "fcaa5ed8f0e312cb189154c6ae8ccf41bc7633f33ec219e7c8b3a8da1713e099",
+      "labels": [
+        {
+          "box": [
+            137.252945,
+            369.335197,
+            162.208026,
+            391.794768
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            726.192853,
+            187.16310599999997,
+            749.9001799999999,
+            238.32102199999997
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            905.8694349999998,
+            361.848672,
+            933.3200239999999,
+            386.8037529999999
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            549.011779,
+            388.05150699999996,
+            556.498303,
+            398.033541
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            631.363546,
+            393.042523,
+            636.354562,
+            404.27231
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            621.381513,
+            409.263326,
+            630.115793,
+            420.493112
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            571.471352,
+            410.51107999999994,
+            578.957876,
+            420.493112
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            698.742264,
+            192.154123,
+            726.192853,
+            238.321022
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            89.838291,
+            9.982032,
+            116.041126,
+            92.333799
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            13.725293999999998,
+            11.229786,
+            47.414655,
+            77.36075199999999
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            49.910162,
+            0.0,
+            83.599521,
+            76.112997
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            796.067079,
+            426.731883,
+            814.78339,
+            471.65102800000005
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            897.135157,
+            427.979637,
+            917.09922,
+            482.88081500000004
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            918.346975,
+            416.74985,
+            945.797564,
+            484.12857
+          ],
+          "label": 1,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            586.4444,
+            435.46616099999994,
+            598.921941,
+            446.69594699999993
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            576.462368,
+            436.713915,
+            587.692154,
+            449.1914550000001
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            556.498303,
+            436.713915,
+            576.462368,
+            451.686963
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            537.781992,
+            435.46616099999994,
+            560.241565,
+            456.67798
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            618.886005,
+            436.713915,
+            630.115792,
+            449.1914550000001
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            632.6113,
+            436.713915,
+            646.336594,
+            451.686963
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            636.354562,
+            439.209423,
+            653.823118,
+            457.92573400000003
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            652.575364,
+            436.713915,
+            676.282691,
+            461.668996
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            656.318626,
+            436.713915,
+            691.255741,
+            466.660012
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            421.740866,
+            436.713915,
+            456.677981,
+            471.65102800000005
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            391.794769,
+            436.713915,
+            437.961669,
+            481.63306000000006
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            346.875624,
+            440.457177,
+            406.76781800000003,
+            489.119585
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            245.34075104311543,
+            434.60361613351876,
+            361.84867199999997,
+            504.09263300000003
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            446.695947,
+            419.245358,
+            549.011779,
+            491.682892906815
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            678.7781989999999,
+            437.961669,
+            701.237772,
+            481.63306000000006
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            690.007986,
+            401.776802,
+            786.085047,
+            496.60610900000006
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1245.258535,
+            539.029746,
+            1278.947894,
+            691.255741
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            603.912957,
+            437.961669,
+            620.133759,
+            452.934718
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-48855406911f",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "5fc6cb88e8abf45222afe74e743c331fb6520c69d9e206258ccc017077cdb3b8",
+      "labels": [
+        {
+          "box": [
+            0.0,
+            249.558782,
+            58.408154999999994,
+            384.53407510431157
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "box": [
+            56.204072,
+            270.497567,
+            77.142858,
+            330.007796
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            69.428569,
+            262.783278,
+            104.69389,
+            388.415987
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            108.000015,
+            256.17103,
+            132.244924,
+            283.722062
+          ],
+          "label": 1,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            92.12795549374133,
+            252.35048678720446,
+            370.5146036161335,
+            392.824153
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            387.538247566064,
+            276.007773,
+            477.183855,
+            327.803716
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            477.663421418637,
+            273.80369,
+            535.592044,
+            314.4367176634214
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            540.000209,
+            276.007773,
+            565.347159,
+            298.4144645340751
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            598.408399,
+            278.211856,
+            625.8692628650904,
+            301.354723
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            640.285968,
+            267.191443,
+            672.245166,
+            299.150641
+          ],
+          "label": 6,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            685.469662,
+            285.926145,
+            705.306405,
+            309.069013
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            697.592116,
+            282.620021,
+            727.347231,
+            310.171053
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            721.837025,
+            272.701649,
+            805.592165,
+            330.007797
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            794.571751,
+            279.3880389429764,
+            877.2183588317108,
+            347.640458
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            844.163611,
+            276.007773,
+            1038.1228809999998,
+            372.98740900000007
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1243.102565,
+            356.45679,
+            1278.367887,
+            446.824178
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "case_id": "H-87e5962cf576",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "0461b465b62836bf54c8d4cf9af20a5302b97cdeb1b5f83c5d41f2869c5b392b",
+      "labels": [
+        {
+          "box": [
+            337.731794,
+            275.399807,
+            368.106773,
+            295.649793
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            303.981818,
+            272.024808,
+            341.106792,
+            297.337291
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            239.85686100000004,
+            273.712307,
+            266.856843,
+            287.212297
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            260.106848,
+            275.399807,
+            307.356816,
+            300.712288
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            180.794401,
+            278.774803,
+            226.35686999999996,
+            302.399787
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            77.856973,
+            268.37273991655076,
+            184.169398,
+            307.462285
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            28.919505,
+            278.774803,
+            86.294467,
+            304.087286
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            530.106662,
+            278.774803,
+            552.044147,
+            302.399787
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            584.106625,
+            280.462302,
+            597.606615,
+            293.962293
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            599.294113,
+            280.462302,
+            621.231598,
+            297.41307371349103
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            0.0,
+            211.27485,
+            101.481957,
+            300.712288
+          ],
+          "label": 6,
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "box": [
+            617.856602,
+            282.3922114047288,
+            663.41907,
+            314.212278
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            494.68706536856746,
+            275.3824756606398,
+            531.794162,
+            311.432545201669
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            712.9902642559111,
+            212.96234800000002,
+            850.7314410000001,
+            346.48122392211405
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            126.17524339360223,
+            235.326842837274,
+            202.28094575799724,
+            287.3991655076495
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-5f23aa07dcf6",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "818a74f3c5113b17a914bd19ddd353f04c940f06ea54ea80f8e6f97e5719c5a8",
+      "labels": [
+        {
+          "box": [
+            595.857599,
+            368.0185880000001,
+            634.208611,
+            397.5521557719054
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            636.853508,
+            368.0185880000001,
+            665.947379,
+            397.11245900000006
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            658.0126870000001,
+            361.4063469999999,
+            705.6208400000002,
+            409.5688456189151
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            695.9666203059805,
+            364.05124299999994,
+            757.1963389999999,
+            424.5897079276773
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            732.0166898470097,
+            349.504308,
+            870.926928,
+            437.6077885952712
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            406.3481919999999,
+            257.903327,
+            591.49101,
+            465.527771
+          ],
+          "label": 8,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            305.926457,
+            354.416251,
+            333.697881,
+            375.57543
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            191.167287,
+            171.353532,
+            220.26115900000002,
+            209.704544
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            829.910011,
+            118.455585,
+            855.036535,
+            179.288223
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            803.461036,
+            122.422931,
+            828.587561,
+            175.320878
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            1036.212009,
+            307.565748,
+            1071.918124,
+            335.33717
+          ],
+          "label": 10,
+          "occluded": false,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-7bc7f24cc982",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "9721cad27b8dbe92c53429d9d7e590314de076de06de7099c5c16efaca514c7f",
+      "labels": [
+        {
+          "box": [
+            688.7602319999999,
+            437.91083644829797,
+            731.1647513449087,
+            469.1555200000001
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            655.070872,
+            450.2939192270416,
+            706.9614531864554,
+            481.63305999999994
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            607.8967909565062,
+            461.5512672077176,
+            654.0519176772779,
+            493.63470895264436
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            474.146536,
+            455.430226,
+            615.142745,
+            516.570174
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            229.586744,
+            477.889798,
+            345.50526493064933,
+            558.2817746206136
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            56.10184499864009,
+            487.81238395159005,
+            305.13930328528636,
+            580.1751775469122
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            832.251946,
+            427.77922326568955,
+            860.950289,
+            446.69594700000005
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            854.9955791323453,
+            439.59943864539935,
+            888.2047556753396,
+            464.36560420288663
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            328.40104389447856,
+            488.49655279303687,
+            379.0295381615441,
+            540.493384742996
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "case_id": "H-c7e04f7e6877",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "a26526a3b37a6885fc1b23a737c6a4bfb0894419ef5dab160b6a3d2a50c2e160",
+      "labels": [
+        {
+          "box": [
+            700.0557349999999,
+            406.907396,
+            710.825823,
+            419.023745
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            714.9930458970791,
+            406.907396,
+            725.634693,
+            417.5799721835883
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            725.634695,
+            405.561135,
+            737.7510440000001,
+            414.984962
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            739.097305,
+            404.214874,
+            753.906174,
+            421.716267
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            728.327217,
+            408.253657,
+            745.82861,
+            423.062528
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            755.437544,
+            401.522352,
+            771.40757,
+            430.5980528511822
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            750.0525,
+            405.561135,
+            776.792614,
+            426.764747
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            648.897816,
+            398.82983,
+            666.399209,
+            416.331223
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            652.9365989999999,
+            406.907396,
+            670.4379929999999,
+            423.06253
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            667.745471,
+            406.907396,
+            705.440779,
+            439.61057023643957
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            627.35764,
+            405.561135,
+            647.551555,
+            437.8714
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            581.584765,
+            402.868613,
+            642.1665109999999,
+            454.026532
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            790.928355,
+            401.8589170000001,
+            819.1998360000001,
+            436.861704
+          ],
+          "label": 3,
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "box": [
+            773.426961,
+            394.54798331015303,
+            1002.291336,
+            536.48502
+          ],
+          "label": 3,
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "box": [
+            846.125057,
+            228.191244,
+            1154.418833,
+            501.482233
+          ],
+          "label": 8,
+          "occluded": true,
+          "truncated": false
+        }
+      ]
+    }
+  ],
+  "primary_budget": 8,
+  "scope": "40-image subset ranking benchmark; not full-pool precision or new detection generalization",
+  "adjudication": "A/B independently inspect raw image and current labels. All positives, disagreements and unresolved cases require third person C. No scores before complete resolved adjudication.",
+  "target": "Errors in seven-class derived annotation contract, not automatically errors in original BDD taxonomy",
+  "classes": {
+    "1": "person (includes rider)",
+    "2": "bicycle",
+    "3": "car",
+    "4": "motorcycle",
+    "6": "bus",
+    "8": "truck",
+    "10": "traffic light"
+  },
+  "label_rule": "Only clear visible objects in task scope. Ambiguous, very small, occluded or taxonomy-dependent cases unresolved. Regions in original pixel coordinates. Do not infer correctness from detector predictions."
+}

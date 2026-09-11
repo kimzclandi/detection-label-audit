@@ -1,0 +1,15 @@
+{
+  "files": {
+    "reports/human_v1/manifest.json": "e1c89431e98d0e5a68ec0a923173e52de8fe43d2ecb9867de0058b8a3b4fb2ed",
+    "reports/human_v1/orders.json": "0fa805eee65fe5b33550d3282f494667950e12e74fe21cf6a5d5d89ebe625ffa",
+    "reports/reference.json": "d4a3be3938c6da1f8c79523b27c93bae0b4e2a307c639bab8f14d815f03b3e9c",
+    "reports/real_pending.json": "1f505aa5d109f2059cfb6e85ad7d72e5bed8aa110bf80a9e0b8ee84f38c80dcd",
+    "human_v1/core.py": "9b2366cfe8aeb2f77578f7a982885c9778803582ae438b08298acc0688a3d842",
+    "human_v1/manage.py": "0a53880c4df50b4d016e0f968cc9df5a398acc1e3a5255b407b7d94f3063af13",
+    "human_v1/prepare.py": "582e407203970ecb46001c215b2177f0e133556281a1ffc01324cae4def5ba95",
+    "human_v1/review.html": "16970fbee1c26b99066756cb6edc3af24a9bcbdb8844454aa777fb772e7a3af3",
+    "human_v1/REVIEW_GUIDE.md": "295772406a257ede98fb0b85137610f07507b318d187eb60de3232d7a304b570"
+  },
+  "status": "awaiting_humans",
+  "gold_cases": 0
+}
