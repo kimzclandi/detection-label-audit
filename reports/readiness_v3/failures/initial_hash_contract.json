@@ -1,0 +1,10 @@
+{
+  "stage": "before_freeze",
+  "observed_failure": "Source identity drift: b26610ce-083c3bd1",
+  "cause": "Implementation compared raw JSON file SHA256 to upstream canonical JSON digest.",
+  "upstream_contract": "src/driving_data/data.py labels_sha256=digest(labels); common.py uses sorted keys and compact separators.",
+  "resolution": "Use canonical digest for labels and file SHA256 for images; no source data changed.",
+  "raw_file_sha256": "fa0a98320c44be24ca97cc6fa052c8fc8bcbfa6ebaef160c4bef0972e1c37670",
+  "canonical_digest": "83fed9a13471f5a44d54447240acca536e5c9308b9dfdcbe0b09708e7aa2415e",
+  "followup_failure": "verify called before successful freeze: freeze.json absent; no metric generated"
+}

@@ -35,3 +35,7 @@ uv run python scripts/verify_source_v2.py --upstream /path/to/driving-data-engin
 原始逐图诊断在development.json；冻结在protocol.json；三seed全量观测/注入truth/候选/误报ID在runs；独立随机对照在control_correction；presentation.json只由原始记录派生。旧result中的random已失效，UI读取纠正后random。原结果主比较未变。
 
 故障注入测试模拟首个原子记录后中断并恢复、残缺临时文件、缓存篡改和身份漂移，测试写临时目录，不更改公开证据。单写者协议，不宣称多worker并发支持。CI使用缓存做确定性回放；完整源图和权重核验仅在本机执行，不能把它说成CI重新推理。
+
+## 真实评测准备 v3
+
+运行 `uv run python scripts/readiness_v3.py verify` 核验保留清单。详细范围、原始提交门禁和未来评分命令见[资格报告](READINESS_V3.md)。此阶段不生成真实错误指标。

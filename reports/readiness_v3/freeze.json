@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "src/label_audit.py": "bf16bfbbfcd40eb43a41bec237a65377b52f8cd094fa40d43c92e100b4e690b4",
+    "src/audit_diagnosis.py": "754904668845109650165e5c24b333cf0ed86b78ce05b5e97b1fe67ed6eeb3be",
+    "human_v1/core.py": "9b2366cfe8aeb2f77578f7a982885c9778803582ae438b08298acc0688a3d842",
+    "scripts/readiness_v3.py": "8627c99b2642b49695c06174fae9e4518a790968035be62cc197afe69676dd80",
+    "uv.lock": "2c781288fbb57fe4f86f2b004cd258eebf3cc7fd86bf55a5546276dfa1f1b5e2",
+    "reports/reference.json": "d4a3be3938c6da1f8c79523b27c93bae0b4e2a307c639bab8f14d815f03b3e9c",
+    "reports/human_v1/manifest.json": "e1c89431e98d0e5a68ec0a923173e52de8fe43d2ecb9867de0058b8a3b4fb2ed",
+    "reports/diagnosis_v2/result.json": "0563668cdddd837b36dbc39941c965b52fc0b2c95982b523cdeb3997c0b3a0e0"
+  },
+  "artifacts": {
+    "source_snapshot.json": "9188b24f2e46089f0ef0756d6876a8e8ed28cd421dd217ce685347b3ee104e37",
+    "ledger.json": "3442c01ca8ff3cb5698d50cf69b95b2943774c8039fd44ac6fb116cbe8af9b4f",
+    "manifest.json": "5c97d90b67b52178b485d429a2512b5ebdcd8e6f95d59dd8416c72c7c19333a6"
+  },
+  "parent_commit": "526f598badc1711eaa9de3ba9020a5327b9d3e6d",
+  "rule": "No scores or new synthetic experiment. Future scoring must match this frozen identity. Changes require another version, never overwrite reserve-v3."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "local_pass",
+  "tests": "36 passed in 0.90s",
+  "new_tests": 8,
+  "ruff": "passed",
+  "checks": [
+    "59 source images file hashes",
+    "59 canonical label digests",
+    "source-group exclusion ledger replay",
+    "frozen identity checks",
+    "missing and bulk review rejection",
+    "distinct reviewers required",
+    "unresolved and non-arbitrated positives rejected",
+    "all-negative recall undefined",
+    "old v2 replay and immutable historical evidence tests"
+  ],
+  "real_error_metrics": null,
+  "new_human_submissions": 0,
+  "audit_rankings_generated_for_reserved_pool": false,
+  "new_model_inference": false,
+  "new_training": false,
+  "scope": "Readiness and software correctness only; no algorithm gain claim"
+}

@@ -57,3 +57,10 @@ if feedback_path.exists():
     st.warning("A本人确认、B由用户转述：40张均未发现明确错误。缺少逐图提交，非正式金标准；不能排除共同漏检。")
     feedback = read(feedback_path)
     st.json(feedback)
+
+with st.expander("真实评测准备 v3 · 尚未评分"):
+    readiness = read(ROOT / "reports/readiness_v3/ledger.json")
+    st.write("保留图片数", readiness["reserved_images"])
+    st.write("保留来源组数", readiness["reserved_groups"])
+    st.warning("曾用于上游检测测试，仅对当前标签审计诊断隔离；缺少新的逐图裁决，真实错误指标未定义。")
+    st.json({"status": readiness["status"], "real_error_metrics": readiness["real_error_metrics"]})
