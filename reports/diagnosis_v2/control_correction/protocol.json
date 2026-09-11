@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "scripts/correct_control_v2.py": "57b568857227caec0fd8d91a733f3aa3f3f2deae7f3af0e4a6fef2e64cf09b12",
+    "scripts/diagnose_v2.py": "986d13cfe32cbfd2eb1ccc1eef604a431de9975f2b15b26c5a037b283b47685a",
+    "src/label_audit.py": "bf16bfbbfcd40eb43a41bec237a65377b52f8cd094fa40d43c92e100b4e690b4",
+    "reports/diagnosis_v2/result.json": "0563668cdddd837b36dbc39941c965b52fc0b2c95982b523cdeb3997c0b3a0e0",
+    "reports/diagnosis_v2/protocol.json": "41497b9d4a9433e4e2c3719f9e4cc805d1f25bd31f642c150f3e5456a29995f4",
+    "reports/diagnosis_v2/runs/s911211.json": "e384861f2db64a7362ff4374f85200282ab9afa9c2a2789e347174686700b92c",
+    "reports/diagnosis_v2/runs/s911213.json": "679cff79c3ab30013c6e08f6b1b76aa293e579d07be073c948ad578d1d4139a9",
+    "reports/diagnosis_v2/runs/s911219.json": "bc3ef38f5d7dfd3674871d8126ce277095eb7b503716589208d228c72073546b"
+  },
+  "parent_commit": "cd4bc9f991930510c74af9a6392135080e9aa40d",
+  "reason": "Original random control shares RNG seed with pollution selection and is invalid. Original three random P@8 values are zero; retain as failed control.",
+  "change": "Replace ONLY random review order using SHA256 domain independent-review-order-v2. Same images, truth, seeds, budget, all nonrandom scores/orders unchanged.",
+  "stop": "One correction for all three seeds; no search; original primary paired delta unchanged.",
+  "status": "Post-result protocol correction; exploratory, not a pristine confirmatory experiment"
+}
