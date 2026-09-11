@@ -1,0 +1,247 @@
+{
+  "protocol_hash": "b7e7e5ce71780d4907a0ef1344300e011081ee3299aa33b9e5a17e65fdc94140",
+  "corrected_random_records": [
+    {
+      "seed": 911211,
+      "method": "random",
+      "order": [
+        "c5eb7f02-4de68c54",
+        "b5b44d2d-60f87448",
+        "be56ab92-da00e516",
+        "b484aa24-d70cf6e5",
+        "c05ef84a-2a2e27b2",
+        "be731030-7593da2a",
+        "c2bc5a4c-c4864ac1",
+        "bc07d865-43cc5bfc",
+        "bb34331a-56aba0b3",
+        "c19681f6-26f7aa52",
+        "bd31fb8b-28ae6a12",
+        "bf527384-894c88c6",
+        "bb1b7e42-9608265e",
+        "c2bc5a4c-69603eab",
+        "bcade6d5-430ff8e0",
+        "b7872bf3-ddf64f77",
+        "b43eb946-92f9152d",
+        "b6decb24-82234e11",
+        "bfbe2ad2-303c3576",
+        "bcde71de-ac5c8c74",
+        "c48f5464-73d132a1",
+        "c0200910-e470c541",
+        "c28cecbb-11796cf6",
+        "c65628b7-27006fb6",
+        "be64f818-053b36ba",
+        "c5792511-7e5cec42",
+        "c447f74e-98ec82f5",
+        "c3b1694b-79c97ac2",
+        "c9c778b5-772ddc4a",
+        "c155b6d9-8938e3d3",
+        "ba7efc39-e3e9eecf",
+        "bb9071ac-4a15cb23",
+        "bf77e9b1-33a1b81e",
+        "c9a41ce3-bd04c1ae",
+        "bf4af26f-12121f1d",
+        "ba1f5489-3f8e2762"
+      ],
+      "precision_at_budget": 0.375,
+      "recall": 0.16666666666666666,
+      "hits": 3,
+      "budget_images": 8,
+      "corrupt_images": 18,
+      "by_type": {
+        "missing": {
+          "hits": 0,
+          "support": 6,
+          "recall": 0.0
+        },
+        "class": {
+          "hits": 2,
+          "support": 6,
+          "recall": 0.3333333333333333
+        },
+        "box": {
+          "hits": 1,
+          "support": 6,
+          "recall": 0.16666666666666666
+        },
+        "duplicate": {
+          "hits": 0,
+          "support": 0,
+          "recall": null
+        },
+        "pipeline": {
+          "hits": 0,
+          "support": 0,
+          "recall": null
+        }
+      },
+      "false_positive_ids": [
+        "b5b44d2d-60f87448",
+        "be56ab92-da00e516",
+        "b484aa24-d70cf6e5",
+        "be731030-7593da2a",
+        "c2bc5a4c-c4864ac1"
+      ]
+    },
+    {
+      "seed": 911213,
+      "method": "random",
+      "order": [
+        "bc07d865-43cc5bfc",
+        "bb34331a-56aba0b3",
+        "c2bc5a4c-c4864ac1",
+        "bcde71de-ac5c8c74",
+        "c0200910-e470c541",
+        "ba7efc39-e3e9eecf",
+        "b7872bf3-ddf64f77",
+        "be731030-7593da2a",
+        "c9c778b5-772ddc4a",
+        "c3b1694b-79c97ac2",
+        "c19681f6-26f7aa52",
+        "bb1b7e42-9608265e",
+        "bb9071ac-4a15cb23",
+        "bf4af26f-12121f1d",
+        "c447f74e-98ec82f5",
+        "bcade6d5-430ff8e0",
+        "c05ef84a-2a2e27b2",
+        "c5eb7f02-4de68c54",
+        "bf527384-894c88c6",
+        "c2bc5a4c-69603eab",
+        "b5b44d2d-60f87448",
+        "be56ab92-da00e516",
+        "b484aa24-d70cf6e5",
+        "b6decb24-82234e11",
+        "c155b6d9-8938e3d3",
+        "bf77e9b1-33a1b81e",
+        "c28cecbb-11796cf6",
+        "c9a41ce3-bd04c1ae",
+        "c5792511-7e5cec42",
+        "bfbe2ad2-303c3576",
+        "c65628b7-27006fb6",
+        "b43eb946-92f9152d",
+        "ba1f5489-3f8e2762",
+        "be64f818-053b36ba",
+        "c48f5464-73d132a1",
+        "bd31fb8b-28ae6a12"
+      ],
+      "precision_at_budget": 0.625,
+      "recall": 0.2777777777777778,
+      "hits": 5,
+      "budget_images": 8,
+      "corrupt_images": 18,
+      "by_type": {
+        "missing": {
+          "hits": 1,
+          "support": 6,
+          "recall": 0.16666666666666666
+        },
+        "class": {
+          "hits": 2,
+          "support": 6,
+          "recall": 0.3333333333333333
+        },
+        "box": {
+          "hits": 2,
+          "support": 6,
+          "recall": 0.3333333333333333
+        },
+        "duplicate": {
+          "hits": 0,
+          "support": 0,
+          "recall": null
+        },
+        "pipeline": {
+          "hits": 0,
+          "support": 0,
+          "recall": null
+        }
+      },
+      "false_positive_ids": [
+        "bb34331a-56aba0b3",
+        "ba7efc39-e3e9eecf",
+        "be731030-7593da2a"
+      ]
+    },
+    {
+      "seed": 911219,
+      "method": "random",
+      "order": [
+        "bf77e9b1-33a1b81e",
+        "bcde71de-ac5c8c74",
+        "be731030-7593da2a",
+        "be56ab92-da00e516",
+        "be64f818-053b36ba",
+        "b43eb946-92f9152d",
+        "c3b1694b-79c97ac2",
+        "bcade6d5-430ff8e0",
+        "ba1f5489-3f8e2762",
+        "c28cecbb-11796cf6",
+        "c65628b7-27006fb6",
+        "c155b6d9-8938e3d3",
+        "b484aa24-d70cf6e5",
+        "bf527384-894c88c6",
+        "b5b44d2d-60f87448",
+        "bd31fb8b-28ae6a12",
+        "bb9071ac-4a15cb23",
+        "b7872bf3-ddf64f77",
+        "c5792511-7e5cec42",
+        "c48f5464-73d132a1",
+        "bb34331a-56aba0b3",
+        "bb1b7e42-9608265e",
+        "bc07d865-43cc5bfc",
+        "c05ef84a-2a2e27b2",
+        "bf4af26f-12121f1d",
+        "c5eb7f02-4de68c54",
+        "c2bc5a4c-69603eab",
+        "b6decb24-82234e11",
+        "c447f74e-98ec82f5",
+        "c19681f6-26f7aa52",
+        "c9a41ce3-bd04c1ae",
+        "bfbe2ad2-303c3576",
+        "c9c778b5-772ddc4a",
+        "ba7efc39-e3e9eecf",
+        "c0200910-e470c541",
+        "c2bc5a4c-c4864ac1"
+      ],
+      "precision_at_budget": 0.5,
+      "recall": 0.2222222222222222,
+      "hits": 4,
+      "budget_images": 8,
+      "corrupt_images": 18,
+      "by_type": {
+        "missing": {
+          "hits": 2,
+          "support": 6,
+          "recall": 0.3333333333333333
+        },
+        "class": {
+          "hits": 1,
+          "support": 6,
+          "recall": 0.16666666666666666
+        },
+        "box": {
+          "hits": 1,
+          "support": 6,
+          "recall": 0.16666666666666666
+        },
+        "duplicate": {
+          "hits": 0,
+          "support": 0,
+          "recall": null
+        },
+        "pipeline": {
+          "hits": 0,
+          "support": 0,
+          "recall": null
+        }
+      },
+      "false_positive_ids": [
+        "bcde71de-ac5c8c74",
+        "be56ab92-da00e516",
+        "c3b1694b-79c97ac2",
+        "bcade6d5-430ff8e0"
+      ]
+    }
+  ],
+  "nonrandom_results_sha256": "0563668cdddd837b36dbc39941c965b52fc0b2c95982b523cdeb3997c0b3a0e0",
+  "invalid_original_random_retained": true
+}

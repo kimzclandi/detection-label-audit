@@ -1,0 +1,44 @@
+{
+  "status": "local_pass",
+  "test_result": "28 passed in 0.87s",
+  "ruff": "passed",
+  "views": [
+    "可控合成污染",
+    "原始标签：待复核",
+    "开发诊断 v2：探索性"
+  ],
+  "checks": [
+    "old experiment raw replay",
+    "metric audit replay",
+    "human freeze unchanged",
+    "reported feedback replay",
+    "v2 diagnosis and all three runs replay",
+    "independent random correction replay",
+    "presentation replay",
+    "156 upstream images/labels/predictions and checkpoint hashes",
+    "uv sync --locked --offline --python 3.12"
+  ],
+  "fault_injection": [
+    "atomic first record interruption then resume",
+    "truncated partial recovery",
+    "cached content mismatch refusal",
+    "frozen identity drift refusal",
+    "invalid/missing fields refusal",
+    "duplicate id refusal",
+    "shared source group preserved"
+  ],
+  "failures_retained": [
+    "first diagnosis rejected false unique-group assumption; failures/*.json",
+    "coupled random control all zero; original result.json retained and corrected separately"
+  ],
+  "environment_setup": "Initial uv sandbox cache access denied; authorized offline verification then succeeded; lock unchanged.",
+  "limitations": [
+    "No new inference/training",
+    "No new human adjudication",
+    "No concurrent-writer guarantee",
+    "Exploratory dev data reused",
+    "AI-assisted code and analysis; user understanding not verified"
+  ],
+  "freeze_commit": "cd4bc9f",
+  "random_correction_freeze_commit": "db7f617"
+}

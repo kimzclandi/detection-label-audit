@@ -15,3 +15,6 @@ jobs:
       - run: uv run python metric_audit.py
       - run: PYTHONPATH=human_v1 uv run python -c "from core import verify_frozen; from pathlib import Path; verify_frozen(Path('.'))"
       - run: uv run python reported_review_audit.py
+      - run: uv run python scripts/diagnose_v2.py verify
+      - run: uv run python scripts/correct_control_v2.py verify
+      - run: uv run python scripts/summarize_diagnosis_v2.py --verify

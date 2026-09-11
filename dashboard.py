@@ -11,7 +11,7 @@ st.caption("固定复核图数预算 · 合成污染与真实待复核分开 · 
 r = read(ROOT / "reports/result.json")
 fix = read(ROOT / "reports/metric_audit.json")
 st.warning("100%命中率只属于人工注入的重复/坐标错误；没有独立人工裁决的真实标签效果。")
-view = st.selectbox("证据类型", ["可控合成污染", "原始标签：待复核"])
+view = st.selectbox("证据类型", ["可控合成污染", "原始标签：待复核", "开发诊断 v2：探索性"])
 if view == "可控合成污染":
     budget = st.selectbox("复核图数预算", [12, 24])
     df = pd.DataFrame(r["records"])
@@ -27,12 +27,26 @@ if view == "可控合成污染":
             for t, v in x["by_type"].items()
         ]
     )
-else:
+elif view == "原始标签：待复核":
     q = read(ROOT / "reports/real_pending.json")
     byid = {x["id"]: x for x in q["candidates"]}
     sid = st.selectbox("问题候选", q["review_order"])
     st.info("状态：pending_review。模型错误、原标签错误和语义映射差异尚未区分。")
     st.json(byid[sid])
+else:
+    diagnosis = read(ROOT / "reports/diagnosis_v2/development.json")
+    presentation = read(ROOT / "reports/diagnosis_v2/presentation.json")
+    st.warning("36图 / 35来源组，已看过的开发数据。仅合成污染结果；随机对照经事后协议纠正。")
+    st.dataframe(presentation["table"])
+    st.json(presentation["primary"])
+    st.caption("每种错误跨3次污染support=18，但只有35个来源组；不能当作独立样本。")
+    st.json(diagnosis["summary"]["counts"])
+    st.dataframe(diagnosis["summary"]["coverage"])
+    st.caption("coverage是与原始参考标签的一对一匹配，不能解释为真实标签错误检测准确率。")
+    sid = st.selectbox("开发图证据", [r["id"] for r in diagnosis["records"]])
+    st.json(next(r for r in diagnosis["records"] if r["id"] == sid))
+    st.write("CPU审计秒数", presentation["cpu_seconds"])
+    st.info("决策：保留guard供探索性候选清理；拒绝真实准确率、人工时间或训练收益主张。")
 with st.expander("协议与统计修复"):
     st.json(read(ROOT / "reports/protocol.json"))
     st.json(fix)
