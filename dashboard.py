@@ -36,3 +36,10 @@ else:
 with st.expander("协议与统计修复"):
     st.json(read(ROOT / "reports/protocol.json"))
     st.json(fix)
+
+feedback_path = ROOT / "reports/human_feedback_v1/result.json"
+if feedback_path.exists():
+    st.subheader("人工批量反馈 · 探索性")
+    st.warning("A本人确认、B由用户转述：40张均未发现明确错误。缺少逐图提交，非正式金标准；不能排除共同漏检。")
+    feedback = read(feedback_path)
+    st.json(feedback)

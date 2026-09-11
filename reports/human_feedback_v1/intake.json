@@ -1,0 +1,66 @@
+{
+  "protocol": "2929040d310adc497bbb9843d13ddef42e9e4b6cccef936a6474abb43e4cdf22",
+  "basis": "retrospective_bulk_confirmation_via_conversation",
+  "reported_case_ids": [
+    "H-7bd354639894",
+    "H-51cbfecdb8c1",
+    "H-13e8d4ce35fd",
+    "H-e045c301de23",
+    "H-ce6bbb0ba933",
+    "H-fd94fcd6b451",
+    "H-28089b066c33",
+    "H-0cb10b460b22",
+    "H-ee04bd54592e",
+    "H-092de26fe978",
+    "H-489c024c27f3",
+    "H-ac52e3e0e948",
+    "H-fe97c8f1ad6f",
+    "H-297177144bed",
+    "H-7423de1fe7b2",
+    "H-891085294c10",
+    "H-335833477f61",
+    "H-9f8845c71ff1",
+    "H-0478992b2578",
+    "H-c19cc3d1f708",
+    "H-4e53e9effc58",
+    "H-582fb18be071",
+    "H-d45a6785ee56",
+    "H-11853bf12c3b",
+    "H-6c4b1b1414fd",
+    "H-4e5ca7adbf6f",
+    "H-dd7dad4c7613",
+    "H-9c6f616221c1",
+    "H-969819407589",
+    "H-01d612cc811d",
+    "H-5a91418d3df5",
+    "H-9dec3d129b77",
+    "H-3833220492f3",
+    "H-978cd617ba96",
+    "H-5284737db429",
+    "H-48855406911f",
+    "H-87e5962cf576",
+    "H-5f23aa07dcf6",
+    "H-7bc7f24cc982",
+    "H-c7e04f7e6877"
+  ],
+  "reviewers": {
+    "A": {
+      "source": "user_direct_confirmation",
+      "reported_verdict": "no_error_found",
+      "independence_reported": true
+    },
+    "B": {
+      "source": "user_relay_of_classmate_confirmation",
+      "reported_verdict": "no_error_found",
+      "independence_reported": true
+    }
+  },
+  "scope_basis": "Conversation concerned completion of all 40 images in each packet; user confirmed the all-negative conclusion and that both reached it before exchanging answers or viewing algorithm suggestions. No per-case negative reasons supplied.",
+  "limitations": [
+    "B statement relayed by user, not directly submitted by B.",
+    "No original per-case reviewer exports or contemporaneous per-case reasons.",
+    "Both reviewers may overlook errors; user explicitly acknowledged this.",
+    "Bulk confirmation is a documented deviation from the frozen per-case submission workflow; do not promote to formal independently adjudicated gold."
+  ],
+  "ai_role": "Transcribe attributed bulk feedback and compute conditional metrics only. No AI visual judgments or human signatures."
+}

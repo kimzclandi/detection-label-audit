@@ -45,4 +45,8 @@ uv run streamlit run dashboard.py --server.address 127.0.0.1
 
 ## 真实标签独立人工裁决基准（待复核）
 
-已在人工提交前冻结40张均匀样本、三种排序与8张复核预算，并提供A/B盲审界面、第三人裁决入口和未完成拒绝计分检查。**当前真实人工提交0条、金标准0张**，不宣称真实错误检出效果。[协议与人员流程](docs/HUMAN_BENCHMARK_V1.md) · [冻结身份](reports/human_v1/freeze.json)。
+已在人工提交前冻结40张均匀样本、三种排序与8张复核预算，并提供A/B盲审界面、第三人裁决入口和未完成拒绝计分检查。**当前正式逐图人工提交0条、金标准0张**，不宣称真实错误检出效果。[协议与人员流程](docs/HUMAN_BENCHMARK_V1.md) · [冻结身份](reports/human_v1/freeze.json)。
+
+### 人工反馈更新
+
+两人报告40张均未发现明确标签错误，且在交流答案、查看算法建议前独立判断。A为本人确认，B为用户转述；缺少逐图提交，故作为[探索性人工反馈](docs/HUMAN_FEEDBACK_V1.md)保存，不升级为正式金标准。相对报告共识三种方法precision@8均为0，recall与kappa未定义；不能区分方法优劣或排除人工漏检。运行 `uv run python reported_review_audit.py` 可独立复算。
