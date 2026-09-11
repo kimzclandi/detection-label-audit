@@ -1,0 +1,6 @@
+{
+  "action": "diagnose",
+  "error": "ValueError",
+  "message": "Duplicate source id/group",
+  "denominator_unchanged": true
+}

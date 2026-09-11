@@ -1,0 +1,12 @@
+{
+  "images": [
+    "b43eb946-92f9152d",
+    "b484aa24-d70cf6e5",
+    "b5b44d2d-60f87448",
+    "b6decb24-82234e11",
+    "b7872bf3-ddf64f77",
+    "ba1f5489-3f8e2762"
+  ],
+  "seconds": 0.0015075420014909469,
+  "scope": "CPU guard only; no inference/training"
+}

@@ -1,0 +1,223 @@
+{
+  "identity": {
+    "src/label_audit.py": "bf16bfbbfcd40eb43a41bec237a65377b52f8cd094fa40d43c92e100b4e690b4",
+    "src/audit_diagnosis.py": "754904668845109650165e5c24b333cf0ed86b78ce05b5e97b1fe67ed6eeb3be",
+    "scripts/diagnose_v2.py": "986d13cfe32cbfd2eb1ccc1eef604a431de9975f2b15b26c5a037b283b47685a",
+    "reports/reference.json": "d4a3be3938c6da1f8c79523b27c93bae0b4e2a307c639bab8f14d815f03b3e9c",
+    "uv.lock": "2c781288fbb57fe4f86f2b004cd258eebf3cc7fd86bf55a5546276dfa1f1b5e2",
+    "reports/diagnosis_v2/provenance.json": "63a2712cdc61ee0562f4533fa529113ae6422a426d35eca2519f8457ba258a29"
+  },
+  "parent_commit": "c7370002a49d586351da253a955e02a98ef53b3d",
+  "hypothesis": "Suppress offset evidence from predictions already matching another same-class label. This reduces cross-object alarms without losing synthetic top-8 discovery.",
+  "alternatives": [
+    "Low detector coverage dominates",
+    "MAX saturated by remaining evidence",
+    "Suppression hides true offsets in crowded scenes"
+  ],
+  "status": "EXPLORATORY: all 36 dev images / 35 source groups already inspected; no independent confirmatory data",
+  "data_version": "dev-three-error-v2",
+  "diagnosis_hash": "55a8d7a8aa7bb64e7e2a5b5e506a0e0511434ff3c653a183d04cb07420be5a75",
+  "groups": [
+    {
+      "id": "b43eb946-92f9152d",
+      "group": "b43eb946",
+      "sha256": "24675dd585242af9658dc96494ffb6e22b886f37ceb861bc15d318f0326f3c29"
+    },
+    {
+      "id": "b484aa24-d70cf6e5",
+      "group": "b484aa24",
+      "sha256": "96e714a79ee6d648d5a0430a8cc97da17927076a6381a63671dbaa4845332d6c"
+    },
+    {
+      "id": "b5b44d2d-60f87448",
+      "group": "b5b44d2d",
+      "sha256": "bbbd9534e7c53c973c08c800808590fe9db80fa5a7c036686bf032d4669256cb"
+    },
+    {
+      "id": "b6decb24-82234e11",
+      "group": "b6decb24",
+      "sha256": "9877cb27c64b45afe71f97bfc92a2f698f73e554554eba1fa7bf678521cbc23a"
+    },
+    {
+      "id": "b7872bf3-ddf64f77",
+      "group": "b7872bf3",
+      "sha256": "9f9f55367158aa36dfa6df4d2fe49d896ae382d03a5aa0ea337e509d2c3cbe59"
+    },
+    {
+      "id": "ba1f5489-3f8e2762",
+      "group": "ba1f5489",
+      "sha256": "e250c545af48c97b0a91542ac202abd1136340849cd7024cbf1074661de7213a"
+    },
+    {
+      "id": "ba7efc39-e3e9eecf",
+      "group": "ba7efc39",
+      "sha256": "528410050198d50ccb6fcd91660ab8e717523465f8016e87e55103c7ef345d69"
+    },
+    {
+      "id": "bb1b7e42-9608265e",
+      "group": "bb1b7e42",
+      "sha256": "607783315484c0c48923be0bcee53d524a859554f8510c1a917e79ca83425c42"
+    },
+    {
+      "id": "bb34331a-56aba0b3",
+      "group": "bb34331a",
+      "sha256": "2516159b27d6bcd1146682032eeaa90bcea15ef75721289c528ec85f3464dd2b"
+    },
+    {
+      "id": "bb9071ac-4a15cb23",
+      "group": "bb9071ac",
+      "sha256": "4385a67047b8c1d8ab804a930f61f4b27f57a9bbb31c97591b2cb44f3f67a6ac"
+    },
+    {
+      "id": "bc07d865-43cc5bfc",
+      "group": "bc07d865",
+      "sha256": "14b1ffb6bbddd131a7f774a202ee07b5fdf4c67f8a7646b9e70c18dcb3bf974e"
+    },
+    {
+      "id": "bcade6d5-430ff8e0",
+      "group": "bcade6d5",
+      "sha256": "39c924a0ba57b7f2cbfea7a0a3f60c149b212615ec87af4d9b098b30075fafad"
+    },
+    {
+      "id": "bcde71de-ac5c8c74",
+      "group": "bcde71de",
+      "sha256": "ce03a548de00ad56c057ee61d33d0c7a50dbf932ce122d431adbdc43c208ad92"
+    },
+    {
+      "id": "bd31fb8b-28ae6a12",
+      "group": "bd31fb8b",
+      "sha256": "eadd556c906f8801984dc043e71a58c8949c2b57e96cb3794a7b489e39a0a16b"
+    },
+    {
+      "id": "be56ab92-da00e516",
+      "group": "be56ab92",
+      "sha256": "ed1e385d8805c261282f8071f5577862d83891969e297255d91518f5f99db378"
+    },
+    {
+      "id": "be64f818-053b36ba",
+      "group": "be64f818",
+      "sha256": "e8dbb71287b29efb7ae27a086141c0e98ec1813f6895595fb70abe40a5077b31"
+    },
+    {
+      "id": "be731030-7593da2a",
+      "group": "be731030",
+      "sha256": "d3df2a40f4cc2bb63e18679eb7cbf4560c85c8f504150f888a37049a79015b6a"
+    },
+    {
+      "id": "bf4af26f-12121f1d",
+      "group": "bf4af26f",
+      "sha256": "e17ff576b8dc38158ec08bffc01554707abb86aeba278c1015ace46f49efa080"
+    },
+    {
+      "id": "bf527384-894c88c6",
+      "group": "bf527384",
+      "sha256": "fbe1e344f062a34514f6db08b8994a7314292165fddf4e6355342a408b4311fb"
+    },
+    {
+      "id": "bf77e9b1-33a1b81e",
+      "group": "bf77e9b1",
+      "sha256": "f271722b0b1d06fdb2d3a3ea0eeb29cff0f959164d85541a183ad1a30e66802f"
+    },
+    {
+      "id": "bfbe2ad2-303c3576",
+      "group": "bfbe2ad2",
+      "sha256": "b764e2c594085869fea2f7ddc9afd6e3c6e1e3d9114df4803cf75a19b7e7d238"
+    },
+    {
+      "id": "c0200910-e470c541",
+      "group": "c0200910",
+      "sha256": "7cc64b4af4b4f180e2a17dd62a21f6f0a96e427de420698c6bfa76ea362b4149"
+    },
+    {
+      "id": "c05ef84a-2a2e27b2",
+      "group": "c05ef84a",
+      "sha256": "4b4a00a7a711270343ea08cfed7fe39c03a8f5bf6bc6ec9dd2fa3182cb09eb10"
+    },
+    {
+      "id": "c155b6d9-8938e3d3",
+      "group": "c155b6d9",
+      "sha256": "e3f13f2194c9c04c8d22edd9e7fa5eaeb0bb66f2d365bb377bb516946aa0eedf"
+    },
+    {
+      "id": "c19681f6-26f7aa52",
+      "group": "c19681f6",
+      "sha256": "6cdff94a3d11a8abf18216d40849e0674c8fdd52b9026e2f1e70bc187c04d83f"
+    },
+    {
+      "id": "c28cecbb-11796cf6",
+      "group": "c28cecbb",
+      "sha256": "7cf8bc8fc38e82b197d6118a53715e6010c944a1a2ac9c718b15cbf85eb63289"
+    },
+    {
+      "id": "c2bc5a4c-69603eab",
+      "group": "c2bc5a4c",
+      "sha256": "bc3f166856964e94f929f9b794e932794d44970edbd2f44e55dbc0f943c8fc14"
+    },
+    {
+      "id": "c2bc5a4c-c4864ac1",
+      "group": "c2bc5a4c",
+      "sha256": "fa069b1f36836890903711b1edcf6d5a7e058913a4a0222725fc1bc3154b23dd"
+    },
+    {
+      "id": "c3b1694b-79c97ac2",
+      "group": "c3b1694b",
+      "sha256": "19323b5c3ba65a16426a992cfe82d31c6b702010d3c8ad840b1df06ec2da9128"
+    },
+    {
+      "id": "c447f74e-98ec82f5",
+      "group": "c447f74e",
+      "sha256": "2ac3171313bb072b1101b64e72f14fba091bda8755758afb6fde41950ff0a7b1"
+    },
+    {
+      "id": "c48f5464-73d132a1",
+      "group": "c48f5464",
+      "sha256": "d57873341ac31cb8b784f9d72cc4e2d67f3d1e1a49c7a13acfc25aa0b2221cd3"
+    },
+    {
+      "id": "c5792511-7e5cec42",
+      "group": "c5792511",
+      "sha256": "bb54dbd82491a13546d013ed3a500a44bdbb290f0e1fb971aa37ebd51e34c18b"
+    },
+    {
+      "id": "c5eb7f02-4de68c54",
+      "group": "c5eb7f02",
+      "sha256": "8609ce3247643c654d1d2dffa7a7699ed59c2d95c8c1b9a23fc8724f3048a212"
+    },
+    {
+      "id": "c65628b7-27006fb6",
+      "group": "c65628b7",
+      "sha256": "4bb432a88ad25aa7427bf7bd5c305b3a0fa85f2449613d91b308fc513fc11507"
+    },
+    {
+      "id": "c9a41ce3-bd04c1ae",
+      "group": "c9a41ce3",
+      "sha256": "466d3a715d54bc372aa4583155737e84b709a00869ed72ef7cc3a7cfaec8f48a"
+    },
+    {
+      "id": "c9c778b5-772ddc4a",
+      "group": "c9c778b5",
+      "sha256": "bd15958da8d531d3c0b714caf3d9a4c786d8bff30d49a03a18fdbbad4d5951d9"
+    }
+  ],
+  "excluded": "All 120 old eval groups including 40 human-feedback groups; no tuning on these",
+  "methods": [
+    "random",
+    "geometry",
+    "combined",
+    "guarded"
+  ],
+  "seeds": [
+    911211,
+    911213,
+    911219
+  ],
+  "budget_images": 8,
+  "pollution": "18/36 images selected uniformly; 6 missing, 6 class, 6 half-width/height box. One random reference object per image. Same observed data for all methods.",
+  "controls": "Same cached predictions, labels, geometry weights, score .7 and IoU .05/.1/.5. Guard affects only box_candidate explained by another same-class IoU>=.5 label.",
+  "primary": "Mean paired precision@8 guarded minus combined across three seeds",
+  "secondary": "Per-type reviewed-image recall; unchanged-source false alarms; full rankings and costs",
+  "statistics": "Paired source-group reranking bootstrap, 2000 draws seed911223; all seeds share draws. Descriptive exploratory interval, not confirmation or equivalence.",
+  "decision": "Retain guard as candidate cleanup only if primary >=0; reject ranking-improvement claim unless positive across every seed. Never claim real accuracy or training benefit.",
+  "stop": "Exactly three seeds once. No tuning, new thresholds, additional methods, or favorable seeds. On missing/invalid input stop and retain failure; never drop denominator.",
+  "cost_limit": "Local CPU cached audit only; stop above 60 seconds per seed; no paid services"
+}

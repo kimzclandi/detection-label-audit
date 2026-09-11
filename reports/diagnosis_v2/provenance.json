@@ -1,0 +1,1779 @@
+{
+  "upstream_local_head": "60db98f30da6f1ecd03dfe6737468454213c4bf4",
+  "reference_identity": {
+    "source": "kimzclandi/driving-data-engine at 3a0843db83812e1775bd4144aa0c2087cb34d851",
+    "dataset": "BDD100K mirror dgural/bdd100k revision c2e7f266756bcd07b87f1a45a35937c8eac20241",
+    "reference_status": "original public annotations, not independently adjudicated; clean means unmodified, not verified error-free",
+    "model": "fixed warmup MobileNetV3 FasterRCNN ROI-head; no new inference/training in this audit",
+    "weights_sha256": "93a87ed9669cc6b10cac501cfa457d534c03735aa1ec91d719b57045c6db0286"
+  },
+  "model_config": {
+    "architecture": "fasterrcnn_mobilenet_v3_large_320_fpn",
+    "weight_sha256": "93a87ed9669cc6b10cac501cfa457d534c03735aa1ec91d719b57045c6db0286",
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "device": "cpu",
+    "platform": "Darwin",
+    "machine": "arm64",
+    "threads": 4,
+    "minimum_score": 0.05,
+    "min_size": 320,
+    "max_size": 640,
+    "classes": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      10
+    ],
+    "adapter_version": 1
+  },
+  "processor": "PIL RGB -> pil_to_tensor float /255; torchvision internal resize 320/640 and normalization; no separate HF processor",
+  "checkpoint_verified": true,
+  "upstream_model_code_sha256": "1319391f9636415c2faa5e7a2deaa981a63a6df3af2056cf9e8c4006c6eba984",
+  "records": [
+    {
+      "id": "b43eb946-92f9152d",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b484aa24-d70cf6e5",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b5b44d2d-60f87448",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b6decb24-82234e11",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b7872bf3-ddf64f77",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "ba1f5489-3f8e2762",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "ba7efc39-e3e9eecf",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bb1b7e42-9608265e",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bb34331a-56aba0b3",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bb9071ac-4a15cb23",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bc07d865-43cc5bfc",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bcade6d5-430ff8e0",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bcde71de-ac5c8c74",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bd31fb8b-28ae6a12",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "be56ab92-da00e516",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "be64f818-053b36ba",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "be731030-7593da2a",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bf4af26f-12121f1d",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bf527384-894c88c6",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bf77e9b1-33a1b81e",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bfbe2ad2-303c3576",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c0200910-e470c541",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c05ef84a-2a2e27b2",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c155b6d9-8938e3d3",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c19681f6-26f7aa52",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c28cecbb-11796cf6",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c2bc5a4c-69603eab",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c2bc5a4c-c4864ac1",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c3b1694b-79c97ac2",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c447f74e-98ec82f5",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c48f5464-73d132a1",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c5792511-7e5cec42",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c5eb7f02-4de68c54",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c65628b7-27006fb6",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c9a41ce3-bd04c1ae",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c9c778b5-772ddc4a",
+      "split": "dev",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c2e294a9-93e364f0",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c38bdba6-2abed256",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bc7bc1e5-2c8a6abe",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b98f4bb1-100931bb",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b9d11a21-9cc4a8bb",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c16c2f49-366525d8",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bd937f4d-6c06e8b4",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c359e7b1-5b68aea4",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c71fcdc8-62a7fa51",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c63428f4-7e084bea",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c1862df8-21ee7c12",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bcfc54ad-c713893a",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c62664f1-b6fec7e5",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b2a9d547-f7f6fa92",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b501bb52-aab37014",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b901a3e5-7ca95a7c",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b44a71bf-712b4538",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b610c819-6f782f77",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c5796880-a7005e6e",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c85d1e8c-8013a9d3",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bed001a8-6cd3d8be",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c4542f68-d3221fd3",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bbb28508-c109f395",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c1d2a1ff-3fe5e395",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bb94c68a-4e6236bc",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bb848f84-44cbc584",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b1d0091f-75824d0d",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "ba3878a5-a6be090b",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b93a8e92-e5a0589d",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "ba4432a9-9df2cbad",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c0b4f0df-586ab062",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b757f147-6a20b38f",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b6579e76-e88b3d6d",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bcbe3164-1af2bcb3",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b68a000f-9a8091f9",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b5dec5e7-5d59cc3b",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c796ff16-6fed522b",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bbf7e280-e5ccb014",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b7301a4a-b25a846a",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b4b07c88-3e6d65a0",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b71d7574-015d9d5d",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c91a84db-a199dd0d",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bac8fe51-6b258bd9",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bab97280-a3c6a37c",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c9b29647-95da8336",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c65d48bf-dd2e932b",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c62ba5b8-9119eae7",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b6bd79c8-c94f5c10",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c0f7c2d3-1abf98ec",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b8697036-9589cddf",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b6a0a684-b46f896b",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bafad57f-2e29ac87",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b1e62c91-eca210a9",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c7a350a0-cbbae3f7",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c6dfb2b8-a74025b0",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b3e74777-122e3878",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b586b979-c563c3e2",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "be67f423-8aec9ba5",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b7bd8b85-9f43d43e",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c91da210-bc038b99",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bd0db9ed-cdca9422",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c3cd6c82-b5d52beb",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c330c787-0f40c0b6",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b888e048-8018b284",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c178a6d6-0f03f247",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c1f35f18-b529c043",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bb110f9d-f9e57c74",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bcbfbfb8-297deca0",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b5fc1373-94aaab40",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b7a9b166-176e18ae",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bdb56045-67e52488",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c6da617f-f5c8afd5",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c264943c-5e493c9f",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b75f814e-4b7257ae",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "be85bd88-4aad89d7",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c59500f0-130d7415",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "ba336fcb-f0afaac6",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "ba0a827b-dfcec16f",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b6a6df2d-cc93b4c6",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "ba70dfe3-4fd952a1",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c0e17fa8-a378411a",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c9283177-7531ef01",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c9cf175a-131d4aae",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c6866060-6e8de1dd",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b6db090c-2b1971cf",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c1f7cec6-549a06ac",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c422771c-1619481d",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bb793416-9423221d",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b975a665-66f04c31",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c2bd70f5-b518c14f",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bec94d5a-e7effd81",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c29e8060-71ad061c",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bb160b7f-0553000b",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c046b4c6-420f75ad",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c586b898-4247945c",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c1006024-9713b693",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c33ff185-6648dfa9",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "be6fd6ac-35af61fd",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bf7b93b6-de7552a6",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b68e35b5-865cf5ee",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bef766cb-f36b2dca",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c07ceafc-6060ff3e",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b4d2dede-9b67d0bd",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c755d1f0-fc14c3a7",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bccad38e-0f5097a8",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c1ca33ef-b36cc11b",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b75da19e-a29454b7",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c4c62e31-64421eb6",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c2461a5a-936bf379",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c573d709-4a0dbd2a",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c18b5a00-f7a987d8",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "b9597719-cd9a176f",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "bd70577b-57a066d8",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "fe189115-c31cac5a",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c27e5a2b-ecd48437",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c7bb5f81-1051148c",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c0bdac3c-56f7aff3",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c0efbe92-2ee3e529",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c0d85a76-c68c9ff0",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    },
+    {
+      "id": "c2e50057-06f8a09f",
+      "split": "eval",
+      "checks": {
+        "label_file": true,
+        "labels": true,
+        "prediction_file": true,
+        "predictions": true,
+        "image": true
+      }
+    }
+  ],
+  "source_groups": {
+    "dev_images": 36,
+    "dev_groups": 35,
+    "eval_images": 120,
+    "eval_groups": 120,
+    "group_overlap": 0
+  },
+  "historical_evidence_hashes": {
+    "reports/cost.json": "b07f0c70c9d655c472f9b98db871c1e139895a291fbeadaa86d0a1d34ff96de9",
+    "reports/cost_pilot.json": "a2daa1b02f83407286a9e81fd003dbc8e3c240c48215d316ced69537f7ff20e8",
+    "reports/human_feedback_v1/intake.json": "c3e6ab13a5547e01cd5bea77df346acb6444fab47a0fd5867f09410e14ae2ae9",
+    "reports/human_feedback_v1/result.json": "cbf40033807899ffc9a7059b0786b0c2cb76d6a7675c1c4a76b95023fe6ae02f",
+    "reports/human_v1/freeze.json": "f825cd640a670c72938f750b8185c26f6ee48fe91dabf432268f8f85f4b34746",
+    "reports/human_v1/manifest.json": "e1c89431e98d0e5a68ec0a923173e52de8fe43d2ecb9867de0058b8a3b4fb2ed",
+    "reports/human_v1/orders.json": "0fa805eee65fe5b33550d3282f494667950e12e74fe21cf6a5d5d89ebe625ffa",
+    "reports/metric_audit.json": "6d96bb34f90a9241077578b574bde095edb9594957e44e6826937e536a05050f",
+    "reports/protocol.json": "1c49b47949ac9e314ee9afd7000eccaf4cf22d4784ce6df4f326065143d87ddc",
+    "reports/qa.json": "684b7c4a6908f6b54d6c79453f2e858e4b792107aa059582c66b2d7b08f228e3",
+    "reports/real_pending.json": "1f505aa5d109f2059cfb6e85ad7d72e5bed8aa110bf80a9e0b8ee84f38c80dcd",
+    "reports/reference.json": "d4a3be3938c6da1f8c79523b27c93bae0b4e2a307c639bab8f14d815f03b3e9c",
+    "reports/result.json": "dbd68e177a6783c6fb83aa111cfd91ab7c7b80d100e3a4f562278292cb691425",
+    "reports/runs/s1301.json": "cbd70b5dc253747a3d6e1ab32b46973430f68c6ff2a6c4e3e0d8cbea2b7421ed",
+    "reports/runs/s2309.json": "80d9346b223d747b48c389192c38dfbc7144cee4f700fa37a1c781cb5aa1250f",
+    "reports/runs/s3301.json": "f57c2d466af49dfd3adbf193b08e9f330b0907135408e55d75e54aab494a9de1"
+  }
+}
