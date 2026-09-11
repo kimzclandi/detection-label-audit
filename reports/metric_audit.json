@@ -1,0 +1,13 @@
+{
+  "primary_delta": 0.0,
+  "reranked_group_bootstrap_ci95": [
+    0.0,
+    0.0
+  ],
+  "draws": 2000,
+  "seed": 911206,
+  "budget_per_draw": 12,
+  "original_interval_status": "REJECTED as precision@budget uncertainty: fixed selected-hit indicators resampled without reranking can violate fixed budget interpretation.",
+  "scope": "Post-run statistical repair, not a new confirmatory experiment. Repeated empirical groups are bootstrap copies, each counted toward 12 reviews. Same group draw across methods/seeds. Conditional on original three contamination seeds and frozen rankings.",
+  "decision": "No incremental combined-policy evidence; synthetic easy-error concentration prevents general quality claims."
+}

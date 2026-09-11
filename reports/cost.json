@@ -1,0 +1,9 @@
+{
+  "seed_seconds": [
+    0.02867304199753562,
+    0.04944087500189198,
+    0.049256666003202554
+  ],
+  "total_seconds": 0.12737058300263016,
+  "scope": "CPU annotation auditing using previously computed detector predictions; no neural inference or training included"
+}

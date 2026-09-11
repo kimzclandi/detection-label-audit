@@ -1,0 +1,10 @@
+{
+  "tests": "8 passed",
+  "raw_replay": "three seeds, 18 budget comparisons and original pending queue passed",
+  "statistics": "original fixed-selected-hit interval rejected; post-run fixed-budget reranking repair tested and replayed",
+  "resume": "one seed completed then process exit; full run checks identical first seed and completes remaining; repeat full run validates all existing evidence",
+  "ui": "actual localhost8524 browser inspected; synthetic result table and no-real-error-claim warning visible; AppTest pending view passed",
+  "neural_inference": "none new; fixed verified predictions reused",
+  "human_adjudication": "not performed",
+  "auto_repair": "not performed"
+}

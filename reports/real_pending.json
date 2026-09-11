@@ -1,0 +1,3194 @@
+{
+  "scope": "Original unmodified annotations, no injected truth. Rankings only, not measured real error precision.",
+  "candidates": [
+    {
+      "id": "c2e294a9-93e364f0",
+      "group": "c2e294a9",
+      "geometry_score": 0.0,
+      "combined_score": 0.8109176091246066,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 4,
+          "score": 0.7315861924899504,
+          "iou": 0.0710662326169762
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 4,
+          "score": 0.6490015966304344,
+          "iou": 0.17592827149510668
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 4,
+          "score": 0.46557767079703666,
+          "iou": 0.4088313527748195
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 4,
+          "score": 0.5876770782979126,
+          "iou": 0.2537952630162203
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 13,
+          "prediction_index": 1,
+          "score": 0.5941457082108037,
+          "iou": 0.4001572714941979
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 14,
+          "prediction_index": 2,
+          "score": 0.8109176091246066,
+          "iou": 0.17533173956448497
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c38bdba6-2abed256",
+      "group": "c38bdba6",
+      "geometry_score": 0.0,
+      "combined_score": 0.45144974579070746,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 1,
+          "score": 0.45144974579070746,
+          "iou": 0.47202177626743824
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bc7bc1e5-2c8a6abe",
+      "group": "bc7bc1e5",
+      "geometry_score": 0.0,
+      "combined_score": 0.9422664974541718,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 2,
+          "score": 0.9353021134549985,
+          "iou": 0.06374680125968767
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 4,
+          "score": 0.8209193643793307,
+          "iou": 0.1249458524415672
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 1,
+          "score": 0.9422664974541718,
+          "iou": 0.05688512044463508
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b98f4bb1-100931bb",
+      "group": "b98f4bb1",
+      "geometry_score": 0.0,
+      "combined_score": 0.8466383752325058,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 0,
+          "score": 0.7067566575093279,
+          "iou": 0.28863997764953464
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 1,
+          "score": 0.8466383752325058,
+          "iou": 0.12344286896003555
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b9d11a21-9cc4a8bb",
+      "group": "b9d11a21",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c16c2f49-366525d8",
+      "group": "c16c2f49",
+      "geometry_score": 0.0,
+      "combined_score": 0.8104314648461963,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 1,
+          "score": 0.8104314648461963,
+          "iou": 0.18669424870450166
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 3,
+          "score": 0.47414189739204354,
+          "iou": 0.47244187103085966
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 4,
+          "score": 0.7711493726914188,
+          "iou": 0.09025248329868546
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 13,
+          "prediction_index": 5,
+          "score": 0.6432221512281797,
+          "iou": 0.16311962997270105
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 19,
+          "prediction_index": 5,
+          "score": 0.7032789981783228,
+          "iou": 0.08498115759213928
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 20,
+          "prediction_index": 3,
+          "score": 0.4556368784417817,
+          "iou": 0.493031642210407
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 20,
+          "prediction_index": 6,
+          "score": 0.43769565764362783,
+          "iou": 0.42451306388335125
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bd937f4d-6c06e8b4",
+      "group": "bd937f4d",
+      "geometry_score": 0.0,
+      "combined_score": 0.7128838666734401,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 2,
+          "score": 0.7128838666734401,
+          "iou": 0.07994114693697571
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 3,
+          "score": 0.393259112220635,
+          "iou": 0.48905764035779536
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 2,
+          "score": 0.50899209651484,
+          "iou": 0.34308699294479994
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c359e7b1-5b68aea4",
+      "group": "c359e7b1",
+      "geometry_score": 0.0,
+      "combined_score": 0.981812596321106,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 0,
+          "score": 0.9298937236603891,
+          "iou": 0.05465973816923053
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 3,
+          "score": 0.7746461295761108,
+          "iou": 0.06272970811371223
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 2,
+          "score": 0.5113062402578521,
+          "iou": 0.47654586131823645
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 1,
+          "score": 0.924813243583337,
+          "iou": 0.058055226579235175
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 2,
+          "score": 0.8073779949798728,
+          "iou": 0.1734398689527664
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 11,
+          "prediction_index": 1,
+          "score": 0.981812596321106,
+          "iou": 0.7106574021605865
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c71fcdc8-62a7fa51",
+      "group": "c71fcdc8",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c63428f4-7e084bea",
+      "group": "c63428f4",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c1862df8-21ee7c12",
+      "group": "c1862df8",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "bcfc54ad-c713893a",
+      "group": "bcfc54ad",
+      "geometry_score": 0.0,
+      "combined_score": 0.9322376890997081,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 3,
+          "score": 0.7793736931573257,
+          "iou": 0.08236402315626382
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 0,
+          "score": 0.9322376890997081,
+          "iou": 0.06673387900521766
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 3,
+          "score": 0.7458507631007317,
+          "iou": 0.1218339808148645
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c62664f1-b6fec7e5",
+      "group": "c62664f1",
+      "geometry_score": 0.0,
+      "combined_score": 0.7953063455312244,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 26,
+          "prediction_index": 2,
+          "score": 0.7953063455312244,
+          "iou": 0.12542532638534182
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b2a9d547-f7f6fa92",
+      "group": "b2a9d547",
+      "geometry_score": 0.0,
+      "combined_score": 0.7751091122627258,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 1,
+          "score": 0.6727041569358327,
+          "iou": 0.06350578175682067
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 1,
+          "score": 0.48850770415013994,
+          "iou": 0.3199318960838623
+        },
+        {
+          "type": "missing_candidate",
+          "prediction_index": 0,
+          "score": 0.7751091122627258,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b501bb52-aab37014",
+      "group": "b501bb52",
+      "geometry_score": 0.0,
+      "combined_score": 0.921691419306865,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 0,
+          "score": 0.921691419306865,
+          "iou": 0.07544319135665513
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b901a3e5-7ca95a7c",
+      "group": "b901a3e5",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "b44a71bf-712b4538",
+      "group": "b44a71bf",
+      "geometry_score": 0.0,
+      "combined_score": 0.9464181839737691,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 33,
+          "prediction_index": 3,
+          "score": 0.9028209646536013,
+          "iou": 0.09420063130287053
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 39,
+          "prediction_index": 2,
+          "score": 0.9464181839737691,
+          "iou": 0.05254610757573107
+        },
+        {
+          "type": "missing_candidate",
+          "prediction_index": 4,
+          "score": 0.7653785347938538,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b610c819-6f782f77",
+      "group": "b610c819",
+      "geometry_score": 0.0,
+      "combined_score": 0.8344374285653685,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 23,
+          "prediction_index": 1,
+          "score": 0.8344374285653685,
+          "iou": 0.07456606768888911
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 26,
+          "prediction_index": 3,
+          "score": 0.6560255652834096,
+          "iou": 0.13539634568757875
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 28,
+          "prediction_index": 2,
+          "score": 0.792104744067421,
+          "iou": 0.11206260317001093
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c5796880-a7005e6e",
+      "group": "c5796880",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c85d1e8c-8013a9d3",
+      "group": "c85d1e8c",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "bed001a8-6cd3d8be",
+      "group": "bed001a8",
+      "geometry_score": 0.0,
+      "combined_score": 0.8536549265472969,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 2,
+          "score": 0.8536549265472969,
+          "iou": 0.07742147591350779
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 3,
+          "score": 0.4738903756815111,
+          "iou": 0.3254925874212433
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 3,
+          "score": 0.49713415191145277,
+          "iou": 0.2924087769706289
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c4542f68-d3221fd3",
+      "group": "c4542f68",
+      "geometry_score": 0.0,
+      "combined_score": 0.9052758859518193,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 0,
+          "score": 0.9052758859518193,
+          "iou": 0.08311805848825304
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bbb28508-c109f395",
+      "group": "bbb28508",
+      "geometry_score": 0.0,
+      "combined_score": 0.7552341252483433,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 1,
+          "score": 0.5894625691619626,
+          "iou": 0.29604218200430965
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 2,
+          "score": 0.7552341252483433,
+          "iou": 0.09208106098884343
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 0,
+          "score": 0.4930157230882669,
+          "iou": 0.4466736338282234
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 2,
+          "score": 0.721564442852434,
+          "iou": 0.13255770431806863
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c1d2a1ff-3fe5e395",
+      "group": "c1d2a1ff",
+      "geometry_score": 0.0,
+      "combined_score": 0.8172371806998353,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 0,
+          "score": 0.8172371806998353,
+          "iou": 0.16116441863135236
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 5,
+          "prediction_index": 1,
+          "score": 0.7352930307388306,
+          "iou": 0.9005220906444031
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bb94c68a-4e6236bc",
+      "group": "bb94c68a",
+      "geometry_score": 0.0,
+      "combined_score": 0.9053787075084289,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 3,
+          "score": 0.9053787075084289,
+          "iou": 0.08218641055796956
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bb848f84-44cbc584",
+      "group": "bb848f84",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "b1d0091f-75824d0d",
+      "group": "b1d0091f",
+      "geometry_score": 0.0,
+      "combined_score": 0.9300177885209598,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 2,
+          "score": 0.8428967248975426,
+          "iou": 0.06541428243828118
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 1,
+          "score": 0.9300177885209598,
+          "iou": 0.053040105236138405
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "ba3878a5-a6be090b",
+      "group": "ba3878a5",
+      "geometry_score": 0.0,
+      "combined_score": 0.9072419397516722,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 3,
+          "score": 0.9072419397516722,
+          "iou": 0.08603373687496003
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 3,
+          "score": 0.8289493474203203,
+          "iou": 0.1649066206208814
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 14,
+          "prediction_index": 5,
+          "score": 0.7296492675251165,
+          "iou": 0.25791836008732805
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 17,
+          "prediction_index": 7,
+          "score": 0.4421168883059625,
+          "iou": 0.37648157519767833
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 18,
+          "prediction_index": 4,
+          "score": 0.8089715059964327,
+          "iou": 0.18198066425179027
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b93a8e92-e5a0589d",
+      "group": "b93a8e92",
+      "geometry_score": 0.0,
+      "combined_score": 0.8931714595112438,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 5,
+          "score": 0.8931714595112438,
+          "iou": 0.0612145164376937
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "ba4432a9-9df2cbad",
+      "group": "ba4432a9",
+      "geometry_score": 0.0,
+      "combined_score": 0.9087933223302598,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 2,
+          "score": 0.7679877555713974,
+          "iou": 0.11749663818389626
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 13,
+          "prediction_index": 2,
+          "score": 0.45636982659372155,
+          "iou": 0.4755803028386311
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 26,
+          "prediction_index": 1,
+          "score": 0.764941713361929,
+          "iou": 0.19804593238881496
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 27,
+          "prediction_index": 0,
+          "score": 0.9087933223302598,
+          "iou": 0.07941219957964743
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c0b4f0df-586ab062",
+      "group": "c0b4f0df",
+      "geometry_score": 0.0,
+      "combined_score": 0.5670591976164011,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 1,
+          "score": 0.5670591976164011,
+          "iou": 0.2977907150499765
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b757f147-6a20b38f",
+      "group": "b757f147",
+      "geometry_score": 0.0,
+      "combined_score": 0.9208286593027236,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 5,
+          "score": 0.759145576595305,
+          "iou": 0.19405894763134268
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 5,
+          "score": 0.8648668705022022,
+          "iou": 0.08182075051078821
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 6,
+          "score": 0.46729115812967215,
+          "iou": 0.35395807856143513
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 5,
+          "score": 0.8824333983558901,
+          "iou": 0.0631713815605535
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 6,
+          "score": 0.4735613651780554,
+          "iou": 0.3452893577031837
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 2,
+          "score": 0.9208286593027236,
+          "iou": 0.06708497239546522
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b6579e76-e88b3d6d",
+      "group": "b6579e76",
+      "geometry_score": 0.0,
+      "combined_score": 0.703883654871208,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 3,
+          "score": 0.40958535826423786,
+          "iou": 0.44069224774659654
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 3,
+          "score": 0.5350810095878283,
+          "iou": 0.2693221310099242
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 2,
+          "score": 0.42249677761767235,
+          "iou": 0.43298958298171514
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 2,
+          "score": 0.6083217033917343,
+          "iou": 0.18360384979420727
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 22,
+          "prediction_index": 1,
+          "score": 0.703883654871208,
+          "iou": 0.1987877125657502
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bcbe3164-1af2bcb3",
+      "group": "bcbe3164",
+      "geometry_score": 0.0,
+      "combined_score": 0.9856097102165222,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 15,
+          "prediction_index": 1,
+          "score": 0.8298524340901315,
+          "iou": 0.16806062845906192
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 19,
+          "prediction_index": 3,
+          "score": 0.9856097102165222,
+          "iou": 0.7204631456956484
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b68a000f-9a8091f9",
+      "group": "b68a000f",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "b5dec5e7-5d59cc3b",
+      "group": "b5dec5e7",
+      "geometry_score": 0.0,
+      "combined_score": 0.5383761213929916,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 13,
+          "prediction_index": 0,
+          "score": 0.5383761213929916,
+          "iou": 0.343744416232616
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c796ff16-6fed522b",
+      "group": "c796ff16",
+      "geometry_score": 0.0,
+      "combined_score": 0.9236302374379881,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 4,
+          "score": 0.5953543548183328,
+          "iou": 0.25826397844149485
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 4,
+          "score": 0.598150308957509,
+          "iou": 0.2547805741749965
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 10,
+          "prediction_index": 2,
+          "score": 0.8057707456159775,
+          "iou": 0.08186185471703578
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 1,
+          "score": 0.9236302374379881,
+          "iou": 0.05933033149022602
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bbf7e280-e5ccb014",
+      "group": "bbf7e280",
+      "geometry_score": 0.0,
+      "combined_score": 0.9466238618211822,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 1,
+          "score": 0.893036920823808,
+          "iou": 0.10619357486721613
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 3,
+          "score": 0.7408265032004405,
+          "iou": 0.20587929750168815
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 1,
+          "score": 0.91275832621451,
+          "iou": 0.08645517610695312
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 15,
+          "prediction_index": 0,
+          "score": 0.939733006813405,
+          "iou": 0.05958757539769579
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 16,
+          "prediction_index": 1,
+          "score": 0.9466238618211822,
+          "iou": 0.05256045953926186
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 16,
+          "prediction_index": 3,
+          "score": 0.874755806481305,
+          "iou": 0.06231527549782957
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 17,
+          "prediction_index": 0,
+          "score": 0.8002515259222736,
+          "iou": 0.19916990003769244
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 17,
+          "prediction_index": 3,
+          "score": 0.8809806777214965,
+          "iou": 0.05564259424133176
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b7301a4a-b25a846a",
+      "group": "b7301a4a",
+      "geometry_score": 0.0,
+      "combined_score": 0.8248251676559448,
+      "evidence": [
+        {
+          "type": "missing_candidate",
+          "prediction_index": 1,
+          "score": 0.8248251676559448,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b4b07c88-3e6d65a0",
+      "group": "b4b07c88",
+      "geometry_score": 0.0,
+      "combined_score": 0.8924151671129648,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 0,
+          "score": 0.8191172430559878,
+          "iou": 0.15748611049345337
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 10,
+          "prediction_index": 1,
+          "score": 0.8924151671129648,
+          "iou": 0.0765227770920223
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b71d7574-015d9d5d",
+      "group": "b71d7574",
+      "geometry_score": 0.0,
+      "combined_score": 0.9266539792603633,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 1,
+          "score": 0.9266539792603633,
+          "iou": 0.05770297951325403
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 2,
+          "score": 0.9057538276291041,
+          "iou": 0.07867444988335537
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c91a84db-a199dd0d",
+      "group": "c91a84db",
+      "geometry_score": 0.0,
+      "combined_score": 0.7029520117901892,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 3,
+          "score": 0.553888386626666,
+          "iou": 0.377684204434977
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 3,
+          "score": 0.62938911398893,
+          "iou": 0.2928561120816805
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 5,
+          "score": 0.5302419086495299,
+          "iou": 0.3308274644348764
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 2,
+          "score": 0.7029520117901892,
+          "iou": 0.2643316684594177
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bac8fe51-6b258bd9",
+      "group": "bac8fe51",
+      "geometry_score": 0.0,
+      "combined_score": 0.6220495670370957,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 2,
+          "score": 0.6220495670370957,
+          "iou": 0.30282649858088156
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bab97280-a3c6a37c",
+      "group": "bab97280",
+      "geometry_score": 0.0,
+      "combined_score": 0.9083908794787428,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 18,
+          "prediction_index": 0,
+          "score": 0.9083908794787428,
+          "iou": 0.09058870881787907
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 25,
+          "prediction_index": 6,
+          "score": 0.6179220882075475,
+          "iou": 0.1465933585969707
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 33,
+          "prediction_index": 2,
+          "score": 0.8514423877550852,
+          "iou": 0.13098563983822464
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 37,
+          "prediction_index": 5,
+          "score": 0.6432545942452069,
+          "iou": 0.14216945246607568
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c9b29647-95da8336",
+      "group": "c9b29647",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c65d48bf-dd2e932b",
+      "group": "c65d48bf",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c62ba5b8-9119eae7",
+      "group": "c62ba5b8",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "b6bd79c8-c94f5c10",
+      "group": "b6bd79c8",
+      "geometry_score": 0.0,
+      "combined_score": 0.7698970822223531,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 3,
+          "score": 0.7698970822223531,
+          "iou": 0.1082354562969492
+        },
+        {
+          "type": "missing_candidate",
+          "prediction_index": 4,
+          "score": 0.752861499786377,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c0f7c2d3-1abf98ec",
+      "group": "c0f7c2d3",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "b8697036-9589cddf",
+      "group": "b8697036",
+      "geometry_score": 0.0,
+      "combined_score": 0.8203276376742775,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 1,
+          "score": 0.5971387460108415,
+          "iou": 0.40213282545161433
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 2,
+          "score": 0.8203276376742775,
+          "iou": 0.08959256761776022
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b6a0a684-b46f896b",
+      "group": "b6a0a684",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "bafad57f-2e29ac87",
+      "group": "bafad57f",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "b1e62c91-eca210a9",
+      "group": "b1e62c91",
+      "geometry_score": 0.0,
+      "combined_score": 0.924062925963997,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 0,
+          "score": 0.840506887425247,
+          "iou": 0.1571381838648086
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 17,
+          "prediction_index": 3,
+          "score": 0.6862426673508281,
+          "iou": 0.09349944483135127
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 18,
+          "prediction_index": 0,
+          "score": 0.924062925963997,
+          "iou": 0.07334803836395282
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 19,
+          "prediction_index": 3,
+          "score": 0.46584516483502586,
+          "iou": 0.38463619265210347
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c7a350a0-cbbae3f7",
+      "group": "c7a350a0",
+      "geometry_score": 0.0,
+      "combined_score": 0.9316323771618026,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 1,
+          "score": 0.7974267776981193,
+          "iou": 0.2016452545215543
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 2,
+          "score": 0.9316323771618026,
+          "iou": 0.05471380239274554
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 5,
+          "score": 0.534817902344885,
+          "iou": 0.25165168066807214
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 5,
+          "score": 0.5446768472563074,
+          "iou": 0.23785647145293398
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 0,
+          "score": 0.8067379144415728,
+          "iou": 0.19253963031857751
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 3,
+          "score": 0.8496058999413454,
+          "iou": 0.11937102785812204
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 1,
+          "score": 0.8980835650736283,
+          "iou": 0.10087133255993914
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 4,
+          "score": 0.7593673450625463,
+          "iou": 0.1719690058482537
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 10,
+          "prediction_index": 3,
+          "score": 0.7992973167179365,
+          "iou": 0.1715166119895449
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 4,
+          "score": 0.7491516278245829,
+          "iou": 0.18310845048664184
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 4,
+          "score": 0.7231008821116586,
+          "iou": 0.21151476136018935
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c6dfb2b8-a74025b0",
+      "group": "c6dfb2b8",
+      "geometry_score": 0.0,
+      "combined_score": 0.9246307588384077,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 0,
+          "score": 0.9246307588384077,
+          "iou": 0.060593758845449715
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b3e74777-122e3878",
+      "group": "b3e74777",
+      "geometry_score": 0.0,
+      "combined_score": 0.8108769655227661,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 2,
+          "score": 0.7254798096610693,
+          "iou": 0.08659474634260646
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 0,
+          "score": 0.6889117885261772,
+          "iou": 0.1909377725329846
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 1,
+          "score": 0.7512122725136667,
+          "iou": 0.0735804512225032
+        },
+        {
+          "type": "missing_candidate",
+          "prediction_index": 1,
+          "score": 0.8108769655227661,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b586b979-c563c3e2",
+      "group": "b586b979",
+      "geometry_score": 0.0,
+      "combined_score": 0.916738833876062,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 0,
+          "score": 0.916738833876062,
+          "iou": 0.0825650466392581
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 3,
+          "score": 0.6902921165357107,
+          "iou": 0.1914516563382378
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 4,
+          "score": 0.4919702311644663,
+          "iou": 0.3622855085835556
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 20,
+          "prediction_index": 2,
+          "score": 0.4784254257296231,
+          "iou": 0.4932331169430514
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 20,
+          "prediction_index": 4,
+          "score": 0.45190197992357717,
+          "iou": 0.4142238228216947
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "be67f423-8aec9ba5",
+      "group": "be67f423",
+      "geometry_score": 0.0,
+      "combined_score": 0.9328112959352088,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 6,
+          "score": 0.42499660575259013,
+          "iou": 0.4616211112053897
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 7,
+          "score": 0.6700803208639307,
+          "iou": 0.08195007333782936
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 10,
+          "prediction_index": 0,
+          "score": 0.9328112959352088,
+          "iou": 0.06676656558044369
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 10,
+          "prediction_index": 6,
+          "score": 0.6678064676422517,
+          "iou": 0.1540334696498967
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 3,
+          "score": 0.8968340394121176,
+          "iou": 0.07419339325864037
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 5,
+          "score": 0.444718358152273,
+          "iou": 0.4999849245027822
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 13,
+          "prediction_index": 2,
+          "score": 0.9320791122944136,
+          "iou": 0.051640482802496133
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 14,
+          "prediction_index": 2,
+          "score": 0.5808940467686926,
+          "iou": 0.4089596146185805
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b7bd8b85-9f43d43e",
+      "group": "b7bd8b85",
+      "geometry_score": 0.0,
+      "combined_score": 0.5660903520555365,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 1,
+          "score": 0.5660903520555365,
+          "iou": 0.23473616269257014
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c91da210-bc038b99",
+      "group": "c91da210",
+      "geometry_score": 0.0,
+      "combined_score": 0.7437372803688049,
+      "evidence": [
+        {
+          "type": "missing_candidate",
+          "prediction_index": 0,
+          "score": 0.7437372803688049,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bd0db9ed-cdca9422",
+      "group": "bd0db9ed",
+      "geometry_score": 0.0,
+      "combined_score": 0.7984032964197234,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 5,
+          "score": 0.4720759609398988,
+          "iou": 0.3476619005172959
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 2,
+          "score": 0.7984032964197234,
+          "iou": 0.06641152786576787
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c3cd6c82-b5d52beb",
+      "group": "c3cd6c82",
+      "geometry_score": 0.0,
+      "combined_score": 0.8746336966138923,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 10,
+          "prediction_index": 2,
+          "score": 0.40179318601537817,
+          "iou": 0.45699079868061493
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 2,
+          "score": 0.5659929244029311,
+          "iou": 0.23508069193414424
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 17,
+          "prediction_index": 0,
+          "score": 0.8746336966138923,
+          "iou": 0.10968724699862158
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c330c787-0f40c0b6",
+      "group": "c330c787",
+      "geometry_score": 0.0,
+      "combined_score": 0.8204153180122375,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 2,
+          "score": 0.7062462118300112,
+          "iou": 0.23800824850902894
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 1,
+          "score": 0.7993835125446855,
+          "iou": 0.17903277006860194
+        },
+        {
+          "type": "missing_candidate",
+          "prediction_index": 3,
+          "score": 0.8204153180122375,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b888e048-8018b284",
+      "group": "b888e048",
+      "geometry_score": 0.0,
+      "combined_score": 0.9434448334299415,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 21,
+          "prediction_index": 0,
+          "score": 0.9434448334299415,
+          "iou": 0.05532356129396164
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 22,
+          "prediction_index": 1,
+          "score": 0.8499544524400777,
+          "iou": 0.13994270863779185
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c178a6d6-0f03f247",
+      "group": "c178a6d6",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c1f35f18-b529c043",
+      "group": "c1f35f18",
+      "geometry_score": 0.0,
+      "combined_score": 0.9042924072842172,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 0,
+          "score": 0.9042924072842172,
+          "iou": 0.08912037327776896
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 15,
+          "prediction_index": 4,
+          "score": 0.8338126766874017,
+          "iou": 0.06304778783486659
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 16,
+          "prediction_index": 3,
+          "score": 0.7926783478336793,
+          "iou": 0.13295543724587072
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 17,
+          "prediction_index": 2,
+          "score": 0.6693855173301552,
+          "iou": 0.2868887938838232
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 17,
+          "prediction_index": 4,
+          "score": 0.7154072694625008,
+          "iou": 0.1960995047653781
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 17,
+          "prediction_index": 5,
+          "score": 0.7062813951087157,
+          "iou": 0.07566559946953418
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 18,
+          "prediction_index": 4,
+          "score": 0.8425296585082721,
+          "iou": 0.05325254769422066
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 19,
+          "prediction_index": 3,
+          "score": 0.6842633761937912,
+          "iou": 0.25154150931205443
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bb110f9d-f9e57c74",
+      "group": "bb110f9d",
+      "geometry_score": 0.0,
+      "combined_score": 0.8752799463806766,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 1,
+          "score": 0.6544199316255823,
+          "iou": 0.30219381957305397
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 1,
+          "score": 0.8145898481600213,
+          "iou": 0.1314050763289899
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 3,
+          "score": 0.42782168353571143,
+          "iou": 0.4310067631494596
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 25,
+          "prediction_index": 0,
+          "score": 0.8752799463806766,
+          "iou": 0.11398663392836493
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bcbfbfb8-297deca0",
+      "group": "bcbfbfb8",
+      "geometry_score": 0.0,
+      "combined_score": 0.7081667184829712,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 0,
+          "score": 0.6165867624883087,
+          "iou": 0.129319768360259
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 10,
+          "prediction_index": 0,
+          "score": 0.7081667184829712,
+          "iou": 0.5997537651817464
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b5fc1373-94aaab40",
+      "group": "b5fc1373",
+      "geometry_score": 0.0,
+      "combined_score": 0.745942862806023,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 10,
+          "prediction_index": 1,
+          "score": 0.745942862806023,
+          "iou": 0.14355957125607774
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b7a9b166-176e18ae",
+      "group": "b7a9b166",
+      "geometry_score": 0.0,
+      "combined_score": 0.9472327799349402,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 3,
+          "score": 0.7205116912888597,
+          "iou": 0.204983048576303
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 2,
+          "score": 0.9472327799349402,
+          "iou": 0.050890182555212035
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bdb56045-67e52488",
+      "group": "bdb56045",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c6da617f-f5c8afd5",
+      "group": "c6da617f",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c264943c-5e493c9f",
+      "group": "c264943c",
+      "geometry_score": 0.0,
+      "combined_score": 0.8783941905263347,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 1,
+          "score": 0.8783941905263347,
+          "iou": 0.10094128299111088
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 1,
+          "score": 0.5190567683594187,
+          "iou": 0.4687322420286336
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 0,
+          "score": 0.8685679189834834,
+          "iou": 0.1301673480768553
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 2,
+          "score": 0.7553499137399927,
+          "iou": 0.18977332954088827
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 14,
+          "prediction_index": 5,
+          "score": 0.4584003721084735,
+          "iou": 0.39180935085366225
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 15,
+          "prediction_index": 5,
+          "score": 0.5805097424491862,
+          "iou": 0.22979862456918448
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 16,
+          "prediction_index": 5,
+          "score": 0.6713230002686457,
+          "iou": 0.10931055871037008
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b75f814e-4b7257ae",
+      "group": "b75f814e",
+      "geometry_score": 0.0,
+      "combined_score": 0.8809899358323764,
+      "evidence": [
+        {
+          "type": "class_candidate",
+          "label_index": 10,
+          "prediction_index": 1,
+          "score": 0.7541000247001648,
+          "iou": 0.8197705995097228
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 0,
+          "score": 0.8809899358323764,
+          "iou": 0.06660774894150066
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "be85bd88-4aad89d7",
+      "group": "be85bd88",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c59500f0-130d7415",
+      "group": "c59500f0",
+      "geometry_score": 0.0,
+      "combined_score": 0.6716863248936308,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 3,
+          "score": 0.5395046371335734,
+          "iou": 0.39607342154482905
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 4,
+          "score": 0.6616618624412092,
+          "iou": 0.24449064674725182
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 6,
+          "score": 0.47513939254891413,
+          "iou": 0.375055958393862
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 5,
+          "score": 0.47768304358634694,
+          "iou": 0.38371984224823547
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 8,
+          "score": 0.5955957162166323,
+          "iou": 0.18783031212127654
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 5,
+          "score": 0.44824497757486353,
+          "iou": 0.4216992015934128
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 5,
+          "score": 0.6716863248936308,
+          "iou": 0.1334275733186584
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "ba336fcb-f0afaac6",
+      "group": "ba336fcb",
+      "geometry_score": 0.0,
+      "combined_score": 0.9102401507226391,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 0,
+          "score": 0.9102401507226391,
+          "iou": 0.08522978578484594
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "ba0a827b-dfcec16f",
+      "group": "ba0a827b",
+      "geometry_score": 0.0,
+      "combined_score": 0.9879459738731384,
+      "evidence": [
+        {
+          "type": "class_candidate",
+          "label_index": 0,
+          "prediction_index": 0,
+          "score": 0.9879459738731384,
+          "iou": 0.810276954150565
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b6a6df2d-cc93b4c6",
+      "group": "b6a6df2d",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "ba70dfe3-4fd952a1",
+      "group": "ba70dfe3",
+      "geometry_score": 0.0,
+      "combined_score": 0.7555579732521881,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 1,
+          "score": 0.7555579732521881,
+          "iou": 0.06440122262725746
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 2,
+          "score": 0.4895056876971758,
+          "iou": 0.34444426438415027
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c0e17fa8-a378411a",
+      "group": "c0e17fa8",
+      "geometry_score": 0.0,
+      "combined_score": 0.6715630848884137,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 1,
+          "score": 0.6715630848884137,
+          "iou": 0.1763692530730924
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c9283177-7531ef01",
+      "group": "c9283177",
+      "geometry_score": 0.0,
+      "combined_score": 0.9086645184069516,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 3,
+          "score": 0.8779688574952214,
+          "iou": 0.10236097164316538
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 0,
+          "score": 0.9086645184069516,
+          "iou": 0.09114170772070374
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 5,
+          "score": 0.7464445273215882,
+          "iou": 0.14574938400884185
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 7,
+          "score": 0.6735638297903177,
+          "iou": 0.0977039820958152
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 2,
+          "score": 0.8754641705583777,
+          "iou": 0.1130837239967659
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c9cf175a-131d4aae",
+      "group": "c9cf175a",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c6866060-6e8de1dd",
+      "group": "c6866060",
+      "geometry_score": 0.0,
+      "combined_score": 0.8782054304722544,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 0,
+          "score": 0.8275644102616718,
+          "iou": 0.13774444831931323
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 0,
+          "score": 0.8669921903126522,
+          "iou": 0.09666387281624979
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 0,
+          "score": 0.8782054304722544,
+          "iou": 0.08498057848887687
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b6db090c-2b1971cf",
+      "group": "b6db090c",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c1f7cec6-549a06ac",
+      "group": "c1f7cec6",
+      "geometry_score": 0.0,
+      "combined_score": 0.9226176717753591,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 3,
+          "score": 0.8893879962814466,
+          "iou": 0.05695764873282645
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 5,
+          "score": 0.4354060578200721,
+          "iou": 0.4452523953568374
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 1,
+          "score": 0.921518783403283,
+          "iou": 0.07743543325994277
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 5,
+          "score": 0.6874818349778884,
+          "iou": 0.12408453134735395
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 2,
+          "score": 0.9226176717753591,
+          "iou": 0.06525322990727717
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 14,
+          "prediction_index": 4,
+          "score": 0.690942240185813,
+          "iou": 0.20248202848729935
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 15,
+          "prediction_index": 2,
+          "score": 0.8000725847037908,
+          "iou": 0.18940934336048945
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 16,
+          "prediction_index": 0,
+          "score": 0.8761323045212749,
+          "iou": 0.12314796167904596
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 18,
+          "prediction_index": 3,
+          "score": 0.8874473645935249,
+          "iou": 0.05901535344390088
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c422771c-1619481d",
+      "group": "c422771c",
+      "geometry_score": 0.0,
+      "combined_score": 0.8967922335517708,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 1,
+          "score": 0.8967922335517708,
+          "iou": 0.07296494249680636
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bb793416-9423221d",
+      "group": "bb793416",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "b975a665-66f04c31",
+      "group": "b975a665",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c2bd70f5-b518c14f",
+      "group": "c2bd70f5",
+      "geometry_score": 0.0,
+      "combined_score": 0.9628776907920837,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 2,
+          "score": 0.9197916319376269,
+          "iou": 0.05805742247589258
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 0,
+          "score": 0.8999995775529499,
+          "iou": 0.09743483990433485
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 0,
+          "score": 0.8728840553321118,
+          "iou": 0.12462765895083992
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 1,
+          "score": 0.8436604407549105,
+          "iou": 0.138193938954797
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 2,
+          "score": 0.9256681087482861,
+          "iou": 0.05203942500603928
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 0,
+          "score": 0.9073098885124764,
+          "iou": 0.09010368981704951
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 11,
+          "prediction_index": 3,
+          "score": 0.9628776907920837,
+          "iou": 0.6559112128481411
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 1,
+          "score": 0.7215948594116589,
+          "iou": 0.2628849316395909
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bec94d5a-e7effd81",
+      "group": "bec94d5a",
+      "geometry_score": 0.0,
+      "combined_score": 0.9445795231390782,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 3,
+          "score": 0.6622853542891123,
+          "iou": 0.05817654357253297
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 14,
+          "prediction_index": 3,
+          "score": 0.42640144110194517,
+          "iou": 0.39362258808311823
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 15,
+          "prediction_index": 0,
+          "score": 0.9445795231390782,
+          "iou": 0.054075891553190106
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 15,
+          "prediction_index": 1,
+          "score": 0.8970899683303494,
+          "iou": 0.051853954098839264
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 15,
+          "prediction_index": 3,
+          "score": 0.6351934967767134,
+          "iou": 0.09670336093022032
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 18,
+          "prediction_index": 2,
+          "score": 0.7418570359750902,
+          "iou": 0.0641904015499319
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 19,
+          "prediction_index": 2,
+          "score": 0.698614388216777,
+          "iou": 0.11873849218229415
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 20,
+          "prediction_index": 2,
+          "score": 0.6860950620347918,
+          "iou": 0.134530895622709
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 21,
+          "prediction_index": 2,
+          "score": 0.4649367149139255,
+          "iou": 0.41350931596083995
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 23,
+          "prediction_index": 2,
+          "score": 0.7529335951572802,
+          "iou": 0.05021796495118858
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 23,
+          "prediction_index": 3,
+          "score": 0.6522376714890111,
+          "iou": 0.07246516294572693
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c29e8060-71ad061c",
+      "group": "c29e8060",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "bb160b7f-0553000b",
+      "group": "bb160b7f",
+      "geometry_score": 0.0,
+      "combined_score": 0.5414874496364703,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 2,
+          "score": 0.5414874496364703,
+          "iou": 0.36864081723316033
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c046b4c6-420f75ad",
+      "group": "c046b4c6",
+      "geometry_score": 0.0,
+      "combined_score": 0.915196418762207,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 2,
+          "score": 0.8261549307715181,
+          "iou": 0.16283016781298737
+        },
+        {
+          "type": "missing_candidate",
+          "prediction_index": 4,
+          "score": 0.915196418762207,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c586b898-4247945c",
+      "group": "c586b898",
+      "geometry_score": 0.0,
+      "combined_score": 0.9115650321334229,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 0,
+          "score": 0.9115650321334229,
+          "iou": 0.086356601569027
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c1006024-9713b693",
+      "group": "c1006024",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c33ff185-6648dfa9",
+      "group": "c33ff185",
+      "geometry_score": 0.0,
+      "combined_score": 0.9723180532455444,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 0,
+          "score": 0.9424609715076433,
+          "iou": 0.05594591200990966
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 16,
+          "prediction_index": 4,
+          "score": 0.659305963456149,
+          "iou": 0.22823582280928179
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 20,
+          "prediction_index": 1,
+          "score": 0.8906265229382283,
+          "iou": 0.08401729252545947
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 22,
+          "prediction_index": 1,
+          "score": 0.9723180532455444,
+          "iou": 0.8698334600248513
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 25,
+          "prediction_index": 2,
+          "score": 0.8946682718995642,
+          "iou": 0.07786661049886603
+        },
+        {
+          "type": "missing_candidate",
+          "prediction_index": 3,
+          "score": 0.9234214425086975,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "be6fd6ac-35af61fd",
+      "group": "be6fd6ac",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "bf7b93b6-de7552a6",
+      "group": "bf7b93b6",
+      "geometry_score": 0.0,
+      "combined_score": 0.8297538510063734,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 3,
+          "score": 0.7794545539014267,
+          "iou": 0.1255506208047054
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 1,
+          "score": 0.7665497453316509,
+          "iou": 0.20716868629278312
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 7,
+          "prediction_index": 1,
+          "score": 0.8297538510063734,
+          "iou": 0.14179759401996556
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b68e35b5-865cf5ee",
+      "group": "b68e35b5",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "bef766cb-f36b2dca",
+      "group": "bef766cb",
+      "geometry_score": 0.0,
+      "combined_score": 0.9328719973564148,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 5,
+          "score": 0.7265188056100088,
+          "iou": 0.0663996503502388
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 4,
+          "score": 0.8030126720166604,
+          "iou": 0.07236050882908816
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 0,
+          "score": 0.886014972425476,
+          "iou": 0.11239034522590312
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 4,
+          "score": 0.4814903140955884,
+          "iou": 0.4437828373870451
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 5,
+          "prediction_index": 3,
+          "score": 0.9328719973564148,
+          "iou": 0.6815378845557698
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 1,
+          "score": 0.7188955143051127,
+          "iou": 0.2694183784696403
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c07ceafc-6060ff3e",
+      "group": "c07ceafc",
+      "geometry_score": 0.0,
+      "combined_score": 0.9460532665252686,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 16,
+          "prediction_index": 0,
+          "score": 0.8695412758356333,
+          "iou": 0.11724759983991401
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 22,
+          "prediction_index": 1,
+          "score": 0.9460532665252686,
+          "iou": 0.579477503434329
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b4d2dede-9b67d0bd",
+      "group": "b4d2dede",
+      "geometry_score": 0.0,
+      "combined_score": 0.7982145809861045,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 2,
+          "score": 0.7217616380975601,
+          "iou": 0.15180106744133492
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 13,
+          "prediction_index": 1,
+          "score": 0.7982145809861045,
+          "iou": 0.07007421594754282
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 14,
+          "prediction_index": 1,
+          "score": 0.6953344869872344,
+          "iou": 0.1899302726448524
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 15,
+          "prediction_index": 1,
+          "score": 0.47089354609282885,
+          "iou": 0.45140559883703907
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c755d1f0-fc14c3a7",
+      "group": "c755d1f0",
+      "geometry_score": 0.0,
+      "combined_score": 0.8633196355118052,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 1,
+          "score": 0.5869200528307144,
+          "iou": 0.40291634545394583
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 1,
+          "score": 0.8633196355118052,
+          "iou": 0.12173039492069535
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bccad38e-0f5097a8",
+      "group": "bccad38e",
+      "geometry_score": 0.0,
+      "combined_score": 0.7915159151959531,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 0,
+          "score": 0.7915159151959531,
+          "iou": 0.18255473520875343
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c1ca33ef-b36cc11b",
+      "group": "c1ca33ef",
+      "geometry_score": 0.0,
+      "combined_score": 0.9085467892325092,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 0,
+          "score": 0.9085467892325092,
+          "iou": 0.08355457658525538
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 18,
+          "prediction_index": 3,
+          "score": 0.5495108636361623,
+          "iou": 0.22797945444007278
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b75da19e-a29454b7",
+      "group": "b75da19e",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c4c62e31-64421eb6",
+      "group": "c4c62e31",
+      "geometry_score": 0.0,
+      "combined_score": 0.7259005748607615,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 1,
+          "score": 0.7259005748607615,
+          "iou": 0.20544377453422946
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 2,
+          "score": 0.579719469383741,
+          "iou": 0.1880987258231424
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c2461a5a-936bf379",
+      "group": "c2461a5a",
+      "geometry_score": 0.0,
+      "combined_score": 0.8087755452271803,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 4,
+          "score": 0.5832474750751238,
+          "iou": 0.3465696670955772
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 4,
+          "score": 0.5808923334415146,
+          "iou": 0.34920820570474653
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 8,
+          "prediction_index": 0,
+          "score": 0.8087755452271803,
+          "iou": 0.18221844486802682
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 9,
+          "prediction_index": 3,
+          "score": 0.693126089744191,
+          "iou": 0.22705584140441618
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 10,
+          "prediction_index": 1,
+          "score": 0.7153535078735854,
+          "iou": 0.27331569923978355
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 2,
+          "score": 0.750631301377344,
+          "iou": 0.23580559547989777
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 0,
+          "score": 0.8008473701534097,
+          "iou": 0.19023490305528015
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c573d709-4a0dbd2a",
+      "group": "c573d709",
+      "geometry_score": 0.0,
+      "combined_score": 0.8541016795592917,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 10,
+          "prediction_index": 5,
+          "score": 0.6958692969188073,
+          "iou": 0.11547121377189996
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 4,
+          "score": 0.6194011036803346,
+          "iou": 0.21287825236934887
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 11,
+          "prediction_index": 5,
+          "score": 0.45172277303020897,
+          "iou": 0.4258091312417505
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 17,
+          "prediction_index": 1,
+          "score": 0.8541016795592917,
+          "iou": 0.13723410666370384
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 36,
+          "prediction_index": 6,
+          "score": 0.6907916211012689,
+          "iou": 0.07376356624578881
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c18b5a00-f7a987d8",
+      "group": "c18b5a00",
+      "geometry_score": 0.0,
+      "combined_score": 0.9968758821487427,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 3,
+          "score": 0.5716178755124938,
+          "iou": 0.26182264736294725
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 6,
+          "prediction_index": 3,
+          "score": 0.716101997458622,
+          "iou": 0.07523837278850576
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 7,
+          "prediction_index": 1,
+          "score": 0.9968758821487427,
+          "iou": 0.9064320924648428
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 12,
+          "prediction_index": 2,
+          "score": 0.9057262834119595,
+          "iou": 0.08956673355233281
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 14,
+          "prediction_index": 2,
+          "score": 0.8321399301048503,
+          "iou": 0.1635355089256001
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "b9597719-cd9a176f",
+      "group": "b9597719",
+      "geometry_score": 0.0,
+      "combined_score": 0.9009835005167582,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 0,
+          "prediction_index": 1,
+          "score": 0.9009835005167582,
+          "iou": 0.08830364827002211
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 5,
+          "prediction_index": 0,
+          "score": 0.5320019631544858,
+          "iou": 0.4651115510601691
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "bd70577b-57a066d8",
+      "group": "bd70577b",
+      "geometry_score": 0.0,
+      "combined_score": 0.7473111748695374,
+      "evidence": [
+        {
+          "type": "missing_candidate",
+          "prediction_index": 0,
+          "score": 0.7473111748695374,
+          "reason": "high confidence detector box lacks nearby annotation; model FP remains possible"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "fe189115-c31cac5a",
+      "group": "fe189115",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c27e5a2b-ecd48437",
+      "group": "c27e5a2b",
+      "geometry_score": 0.0,
+      "combined_score": 0.4868574979366469,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 0,
+          "score": 0.4868574979366469,
+          "iou": 0.48416403658376345
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c7bb5f81-1051148c",
+      "group": "c7bb5f81",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c0bdac3c-56f7aff3",
+      "group": "c0bdac3c",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c0efbe92-2ee3e529",
+      "group": "c0efbe92",
+      "geometry_score": 0.0,
+      "combined_score": 0.9590505361557007,
+      "evidence": [
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 0,
+          "score": 0.9346732694060649,
+          "iou": 0.06383978559701722
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 1,
+          "prediction_index": 2,
+          "score": 0.5120394188501253,
+          "iou": 0.466097562592889
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 1,
+          "score": 0.8678567624103567,
+          "iou": 0.13041107939738905
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 2,
+          "prediction_index": 5,
+          "score": 0.7252937295740298,
+          "iou": 0.10498720674135799
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 3,
+          "prediction_index": 0,
+          "score": 0.8925653392285229,
+          "iou": 0.10601470407748542
+        },
+        {
+          "type": "box_candidate",
+          "label_index": 4,
+          "prediction_index": 4,
+          "score": 0.511369857766148,
+          "iou": 0.3925054843459802
+        },
+        {
+          "type": "class_candidate",
+          "label_index": 5,
+          "prediction_index": 2,
+          "score": 0.9590505361557007,
+          "iou": 0.5699365621681164
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "c0d85a76-c68c9ff0",
+      "group": "c0d85a76",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    },
+    {
+      "id": "c2e50057-06f8a09f",
+      "group": "c2e50057",
+      "geometry_score": 0.0,
+      "combined_score": 0.0,
+      "evidence": [],
+      "status": "pending_review"
+    }
+  ],
+  "review_order": [
+    "c18b5a00-f7a987d8",
+    "ba0a827b-dfcec16f",
+    "bcbe3164-1af2bcb3",
+    "c359e7b1-5b68aea4",
+    "c33ff185-6648dfa9",
+    "c2bd70f5-b518c14f",
+    "c0efbe92-2ee3e529",
+    "b7a9b166-176e18ae",
+    "bbf7e280-e5ccb014",
+    "b44a71bf-712b4538",
+    "c07ceafc-6060ff3e",
+    "bec94d5a-e7effd81",
+    "b888e048-8018b284",
+    "bc7bc1e5-2c8a6abe",
+    "bef766cb-f36b2dca",
+    "be67f423-8aec9ba5",
+    "bcfc54ad-c713893a",
+    "c7a350a0-cbbae3f7",
+    "b1d0091f-75824d0d",
+    "b71d7574-015d9d5d",
+    "c6dfb2b8-a74025b0",
+    "b1e62c91-eca210a9",
+    "c796ff16-6fed522b",
+    "c1f7cec6-549a06ac",
+    "b501bb52-aab37014",
+    "b757f147-6a20b38f",
+    "b586b979-c563c3e2",
+    "c046b4c6-420f75ad",
+    "c586b898-4247945c",
+    "ba336fcb-f0afaac6",
+    "ba4432a9-9df2cbad",
+    "c9283177-7531ef01",
+    "c1ca33ef-b36cc11b",
+    "bab97280-a3c6a37c",
+    "ba3878a5-a6be090b",
+    "bb94c68a-4e6236bc",
+    "c4542f68-d3221fd3",
+    "c1f35f18-b529c043",
+    "b9597719-cd9a176f",
+    "c422771c-1619481d",
+    "b93a8e92-e5a0589d",
+    "b4b07c88-3e6d65a0",
+    "b75f814e-4b7257ae",
+    "c264943c-5e493c9f",
+    "c6866060-6e8de1dd",
+    "bb110f9d-f9e57c74",
+    "c3cd6c82-b5d52beb",
+    "c755d1f0-fc14c3a7",
+    "c573d709-4a0dbd2a",
+    "bed001a8-6cd3d8be",
+    "b98f4bb1-100931bb",
+    "b610c819-6f782f77",
+    "bf7b93b6-de7552a6",
+    "b7301a4a-b25a846a",
+    "c330c787-0f40c0b6",
+    "b8697036-9589cddf",
+    "c1d2a1ff-3fe5e395",
+    "c2e294a9-93e364f0",
+    "b3e74777-122e3878",
+    "c16c2f49-366525d8",
+    "c2461a5a-936bf379",
+    "bd0db9ed-cdca9422",
+    "b4d2dede-9b67d0bd",
+    "c62664f1-b6fec7e5",
+    "bccad38e-0f5097a8",
+    "b2a9d547-f7f6fa92",
+    "b6bd79c8-c94f5c10",
+    "ba70dfe3-4fd952a1",
+    "bbb28508-c109f395",
+    "bd70577b-57a066d8",
+    "b5fc1373-94aaab40",
+    "c91da210-bc038b99",
+    "c4c62e31-64421eb6",
+    "bd937f4d-6c06e8b4",
+    "bcbfbfb8-297deca0",
+    "b6579e76-e88b3d6d",
+    "c91a84db-a199dd0d",
+    "c59500f0-130d7415",
+    "c0e17fa8-a378411a",
+    "bac8fe51-6b258bd9",
+    "c0b4f0df-586ab062",
+    "b7bd8b85-9f43d43e",
+    "bb160b7f-0553000b",
+    "b5dec5e7-5d59cc3b",
+    "c27e5a2b-ecd48437",
+    "c38bdba6-2abed256",
+    "c85d1e8c-8013a9d3",
+    "c1862df8-21ee7c12",
+    "c6da617f-f5c8afd5",
+    "b6db090c-2b1971cf",
+    "c7bb5f81-1051148c",
+    "b975a665-66f04c31",
+    "c29e8060-71ad061c",
+    "b901a3e5-7ca95a7c",
+    "b9d11a21-9cc4a8bb",
+    "bdb56045-67e52488",
+    "c1006024-9713b693",
+    "bafad57f-2e29ac87",
+    "c65d48bf-dd2e932b",
+    "c2e50057-06f8a09f",
+    "b6a0a684-b46f896b",
+    "c0bdac3c-56f7aff3",
+    "be85bd88-4aad89d7",
+    "c5796880-a7005e6e",
+    "c0d85a76-c68c9ff0",
+    "bb793416-9423221d",
+    "c9b29647-95da8336",
+    "b68e35b5-865cf5ee",
+    "be6fd6ac-35af61fd",
+    "bb848f84-44cbc584",
+    "c0f7c2d3-1abf98ec",
+    "b6a6df2d-cc93b4c6",
+    "c9cf175a-131d4aae",
+    "c71fcdc8-62a7fa51",
+    "c62ba5b8-9119eae7",
+    "fe189115-c31cac5a",
+    "b75da19e-a29454b7",
+    "b68a000f-9a8091f9",
+    "c63428f4-7e084bea",
+    "c178a6d6-0f03f247"
+  ],
+  "status": "pending_review"
+}
