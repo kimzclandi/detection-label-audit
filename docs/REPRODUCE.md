@@ -39,3 +39,7 @@ uv run python scripts/verify_source_v2.py --upstream /path/to/driving-data-engin
 ## 真实评测准备 v3
 
 运行 `uv run python scripts/readiness_v3.py verify` 核验保留清单。详细范围、原始提交门禁和未来评分命令见[资格报告](READINESS_V3.md)。此阶段不生成真实错误指标。
+
+## 定位归因 v4
+
+`uv run python scripts/localization_v4.py verify` 回放原始记录；[定义、逐例界面与限制](LOCALIZATION_V4.md)。不重新排名，不使用59图保留池。

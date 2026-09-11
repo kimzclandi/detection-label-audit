@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "scripts/localization_v4.py": "e53437fa624222f3dfd2feb3238d5e4ff2bdf721f2dd482a7af19be1dd0c0df6",
+    "src/label_audit.py": "bf16bfbbfcd40eb43a41bec237a65377b52f8cd094fa40d43c92e100b4e690b4",
+    "src/audit_diagnosis.py": "754904668845109650165e5c24b333cf0ed86b78ce05b5e97b1fe67ed6eeb3be",
+    "scripts/diagnose_v2.py": "986d13cfe32cbfd2eb1ccc1eef604a431de9975f2b15b26c5a037b283b47685a",
+    "reports/reference.json": "d4a3be3938c6da1f8c79523b27c93bae0b4e2a307c639bab8f14d815f03b3e9c",
+    "reports/diagnosis_v2/runs/s911211.json": "e384861f2db64a7362ff4374f85200282ab9afa9c2a2789e347174686700b92c",
+    "reports/diagnosis_v2/runs/s911213.json": "679cff79c3ab30013c6e08f6b1b76aa293e579d07be073c948ad578d1d4139a9",
+    "reports/diagnosis_v2/runs/s911219.json": "bc3ef38f5d7dfd3674871d8126ce277095eb7b503716589208d228c72073546b"
+  },
+  "status": "Post-hoc diagnostic; not confirmatory",
+  "question": "Do selected injected images actually contain evidence localizing the injected target?",
+  "definition": "Matching candidate type; same mutated label index for class/box; prediction same class as original target with original-box IoU>=0.5; candidate absent after undoing injection.",
+  "max_definition": "Report any localized max and all-max-localized separately, preserving ties.",
+  "boundaries": "IoU .5 is a declared heuristic attribution rule, not independent human truth. No score/threshold changes to auditor, no new corruption, no new rankings, no heldout59 access.",
+  "stop": "Replay all three frozen seeds once, preserve all misses, no threshold sweep."
+}

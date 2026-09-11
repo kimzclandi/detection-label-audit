@@ -11,7 +11,9 @@ st.caption("固定复核图数预算 · 合成污染与真实待复核分开 · 
 r = read(ROOT / "reports/result.json")
 fix = read(ROOT / "reports/metric_audit.json")
 st.warning("100%命中率只属于人工注入的重复/坐标错误；没有独立人工裁决的真实标签效果。")
-view = st.selectbox("证据类型", ["可控合成污染", "原始标签：待复核", "开发诊断 v2：探索性"])
+view = st.selectbox(
+    "证据类型", ["可控合成污染", "原始标签：待复核", "开发诊断 v2：探索性", "定位归因 v4：事后诊断"]
+)
 if view == "可控合成污染":
     budget = st.selectbox("复核图数预算", [12, 24])
     df = pd.DataFrame(r["records"])
@@ -33,7 +35,7 @@ elif view == "原始标签：待复核":
     sid = st.selectbox("问题候选", q["review_order"])
     st.info("状态：pending_review。模型错误、原标签错误和语义映射差异尚未区分。")
     st.json(byid[sid])
-else:
+elif view == "开发诊断 v2：探索性":
     diagnosis = read(ROOT / "reports/diagnosis_v2/development.json")
     presentation = read(ROOT / "reports/diagnosis_v2/presentation.json")
     st.warning("36图 / 35来源组，已看过的开发数据。仅合成污染结果；随机对照经事后协议纠正。")
@@ -47,6 +49,30 @@ else:
     st.json(next(r for r in diagnosis["records"] if r["id"] == sid))
     st.write("CPU审计秒数", presentation["cpu_seconds"])
     st.info("决策：保留guard供探索性候选清理；拒绝真实准确率、人工时间或训练收益主张。")
+else:
+    localization = read(ROOT / "reports/localization_v4/result.json")
+    st.warning("选中污染图不等于定位注入错误。以下为已有开发集合成结果的事后归因，不是真实标签准确率。")
+    st.dataframe(localization["summary"])
+    st.caption(
+        "selected_localized_images：满足类型、目标索引、原类别/IoU及还原后消失条件；分母24为3次×8图预算。"
+    )
+    cases = [r for r in localization["records"] if r["selected"]]
+    index = st.selectbox(
+        "逐例归因",
+        range(len(cases)),
+        format_func=lambda i: f"{cases[i]['method']} / {cases[i]['seed']} / {cases[i]['id']}",
+    )
+    trace = cases[index]
+    st.json(trace)
+    run = read(ROOT / f"reports/diagnosis_v2/runs/s{trace['seed']}.json")
+    key = "guarded_candidates" if trace["method"] == "guarded" else "old_candidates"
+    st.json(
+        {
+            "injection": run["changes"].get(trace["id"]),
+            "candidate": next(r for r in run[key] if r["id"] == trace["id"]),
+            "observed": next(r for r in run["observed"] if r["id"] == trace["id"]),
+        }
+    )
 with st.expander("协议与统计修复"):
     st.json(read(ROOT / "reports/protocol.json"))
     st.json(fix)
