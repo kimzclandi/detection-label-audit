@@ -41,17 +41,4 @@ uv run python human_v1/manage.py score --a /ABS/A.json --b /ABS/B.json --c /ABS/
 
 当前仅冻结图像级precision@8与recall，以及原始一致率/Cohen kappa；一致率不是准确率。待真人完成后还需审查裁决理由和证据，按错误类型整理结果及误报案例，并明确任何后续统计属于事后分析。未验证自动修复、训练收益、人工降本或生产规模。这个40图试点不足以稳定比较罕见错误。
 
-实现为AI辅助，AI未承担任何实际人工裁决。用户尚未通过理解验证。必须能解释core.py中的validate_submission、reconcile、evaluate、verify_frozen及其失败条件。
-
-## 主动回忆（暂不附答案）
-
-1. 为什么先固定40张，再比较三种排序？
-2. 双人一致阴性为何仍不是绝对真值？
-3. 为什么两人一致阳性还安排第三人？
-4. 什么情况下框差异不能算标注错误？
-5. person/rider映射如何制造假阳性？
-6. 为什么不确定案例不能从分母删除？
-7. 子集precision@8为何不能外推全池precision？
-8. 同一人换代号为何破坏独立裁决？
-9. kappa高是否证明裁决正确？
-10. 若真实错误很少，应如何限制方法优劣结论？
+实现为AI辅助，AI未承担任何实际人工裁决。提交校验、争议协调、评分和冻结检查分别由 core.py 的 validate_submission、reconcile、evaluate、verify_frozen 实现。
