@@ -48,4 +48,4 @@ uv run streamlit run dashboard.py --server.address 127.0.0.1
 
 仓库实现[审计候选](src/label_audit.py)、[开发诊断](scripts/diagnose_v2.py)、[定位归因](scripts/localization_v4.py)和人工提交校验。上游模型预测与参考标签来自 [driving-data-engine](https://github.com/kimzclandi/driving-data-engine)，不计为本项目新增模型实验。代码、测试和文档使用 AI 辅助开发；AI 视觉意见未作为人工裁决。
 
-原始预测、污染记录、冻结协议、无效随机对照、统计修复和人工反馈均保留。[历史与学习附件](docs/RESEARCH_INDEX.md)集中列出各阶段资料。代码 [MIT](LICENSE)，派生数据遵循上游许可。
+原始预测、污染记录、冻结协议、无效随机对照、统计修复和人工反馈均保留。[历史与方法文档](docs/RESEARCH_INDEX.md)集中列出各阶段资料。代码 [MIT](LICENSE)，派生数据遵循上游许可。
