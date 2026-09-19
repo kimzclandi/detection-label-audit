@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
       - run: uv sync --locked --python 3.12
-      - run: uv run ruff check src scripts tests human_v1 dashboard.py metric_audit.py reported_review_audit.py
+      - run: uv run ruff check src scripts tests human_v1 dashboard.py metric_audit.py reported_review_audit.py replay.py
       - run: uv run pytest -q
       - run: uv run python scripts/run.py verify
       - run: uv run python metric_audit.py
@@ -20,3 +20,11 @@ jobs:
       - run: uv run python scripts/summarize_diagnosis_v2.py --verify
       - run: uv run python scripts/readiness_v3.py verify
       - run: uv run python scripts/localization_v4.py verify
+  standard-library-replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python replay.py
