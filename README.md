@@ -25,12 +25,18 @@
 
 ## 查看与运行
 
+最小核验只需 Python 3.12 标准库，无须安装 NumPy、Streamlit 或模型依赖：
+
+```bash
+git clone https://github.com/kimzclandi/detection-label-audit.git
+cd detection-label-audit
+python3 replay.py
+```
+
+需要交互界面时，另行安装锁定环境：
+
 ```bash
 uv sync --locked --python 3.12
-uv run python scripts/localization_v4.py verify
-uv run python scripts/diagnose_v2.py verify
-uv run python scripts/correct_control_v2.py verify
-uv run python scripts/readiness_v3.py verify
 uv run streamlit run dashboard.py --server.address 127.0.0.1
 ```
 
