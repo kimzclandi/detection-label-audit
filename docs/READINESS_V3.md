@@ -54,7 +54,7 @@ uv run python scripts/readiness_v3.py score \
   --c /path/to/raw-C.json --output /path/to/new-real-result.json
 ```
 
-C只在有需裁决情况时必需；路径只是CLI用法，不是已存在的人类证据。输入格式沿用human_v1.core.validate_submission，protocol须为本轮manifest的canonical digest，case_id须对应本轮59图。结果保留原始提交内容digest和完整裁决。现在不要求用户或同学重复复核，不自动发送邀请，不生成假提交。
+C只在有需裁决情况时必需；路径只是CLI用法，不是已存在的人类证据。输入格式沿用human_v1.core.validate_submission，protocol须为本轮manifest的canonical digest，case_id须对应本轮59图。结果保留原始提交内容digest和完整裁决。当前没有新增人工提交；只有按协议完成的独立真实复核才能进入评分。
 
 首次保留池prepare已实际运行；再次运行应保持内容相同，否则拒绝。CI只回放已提交快照与门禁测试；本机prepare额外核对真实源图和标签，不把这两种验证混为一谈。
 

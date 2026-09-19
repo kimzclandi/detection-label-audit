@@ -12,7 +12,7 @@ r = read(ROOT / "reports/result.json")
 fix = read(ROOT / "reports/metric_audit.json")
 st.warning("100%命中率只属于人工注入的重复/坐标错误；没有独立人工裁决的真实标签效果。")
 view = st.selectbox(
-    "证据类型", ["可控合成污染", "原始标签：待复核", "开发诊断 v2：探索性", "定位归因 v4：事后诊断"]
+    "证据类型", ["定位归因 v4：事后诊断", "开发诊断 v2：探索性", "可控合成污染", "原始标签：待复核"]
 )
 if view == "可控合成污染":
     budget = st.selectbox("复核图数预算", [12, 24])
@@ -80,7 +80,7 @@ with st.expander("协议与统计修复"):
 feedback_path = ROOT / "reports/human_feedback_v1/result.json"
 if feedback_path.exists():
     st.subheader("人工批量反馈 · 探索性")
-    st.warning("A本人确认、B由用户转述：40张均未发现明确错误。缺少逐图提交，非正式金标准；不能排除共同漏检。")
+    st.warning("A直接报告、B经A转述：40张均未发现明确错误。缺少逐图提交，非正式金标准；不能排除共同漏检。")
     feedback = read(feedback_path)
     st.json(feedback)
 
